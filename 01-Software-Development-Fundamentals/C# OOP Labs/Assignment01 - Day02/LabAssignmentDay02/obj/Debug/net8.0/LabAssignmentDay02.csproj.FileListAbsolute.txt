@@ -1,0 +1,15 @@
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\bin\Debug\net8.0\LabAssignmentDay02.exe
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\bin\Debug\net8.0\LabAssignmentDay02.deps.json
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\bin\Debug\net8.0\LabAssignmentDay02.runtimeconfig.json
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\bin\Debug\net8.0\LabAssignmentDay02.dll
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\bin\Debug\net8.0\LabAssignmentDay02.pdb
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.AssemblyInfoInputs.cache
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.AssemblyInfo.cs
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.csproj.CoreCompileInputs.cache
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.dll
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\refint\LabAssignmentDay02.dll
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.pdb
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.genruntimeconfig.cache
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\ref\LabAssignmentDay02.dll
+E:\ITI - Intensive Code Camp\C#\2 - Labs\Assignment01 - Day02\LabAssignmentDay02\obj\Debug\net8.0\LabAssignmentDay02.sourcelink.json

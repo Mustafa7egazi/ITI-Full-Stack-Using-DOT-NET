@@ -1,0 +1,71 @@
+///lab assignments
+///READ ALL DATA FROM USER AT RUNTIME
+///
+
+///1D array [without any built in function]
+///1- array of 10 intergers and get min and max value   |5|4|2|-1|-33|55|66|77|88|100|
+///2- array of 10 integers and sort it ascending without any built in function
+///3- array of 10 integers and search number and get index
+////////|4|5|6|7|8|9|2|3|66|77|88|99|100|
+////////enter number to search
+////////888
+////////not found
+////////88
+////////found at index 10
+
+
+///4-(BONUS)matrix  3*2   *  2*1   =3*1
+///
+
+///2D
+///5- array of 3 rows,4 cols read and write   int[,]arr=new int[3,4];
+///add get Sum of rows
+
+///5- calculate your birth date
+////////////////////
+///1,3,5,7,8,10,12     31days
+///4,6,9,11           30 days
+///2      28,29 leap year    2000,2004,2008,2020
+
+
+///while ->   do while
+
+/////plz enter your year from 1980->2023
+//2000
+/////plz enter your month
+//2
+/////plz enter your day
+//32
+/////plz enter your day
+//31
+/////plz enter your day
+//30
+/////plz enter your day
+//29
+
+
+/////you're 22y  3 months and 5 days
+
+//int currentday = DateTime.Now.day;
+//int currentmonth = DateTime.Now.Month;
+//int currentyear = DateTime.Now.Year;
+
+//int day, month, year;
+
+//6-simple calculator
+///enter #1
+///5
+///enter #2
+///6
+///enter operator
+///+
+///5+6=11
+///continue y or n?
+///y
+//////enter #1
+///11
+///enter #2
+///22
+///enter operator
+///+
+///11+22=33
