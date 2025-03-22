@@ -65,7 +65,4 @@ Stay tuned for new modules, project showcases, and deployed demos!
 ## © Author
 
 Made with ❤️ by **7egz (Mustafa Hegazy)**  
-📍 Full Stack .NET Trainee @ ITI ICC Bootcamp  
-🕓 2025
-
-All rights reserved.
+📍 Full Stack .NET Trainee @ ITI ICC Bootcamp 🕓 2025 All rights reserved.
