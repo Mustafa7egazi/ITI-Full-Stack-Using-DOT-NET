@@ -1,0 +1,9 @@
+            #region Lab assignement
+            //1- try early vs late binding on
+            //////parent , child ,subchild
+            ///
+            ///2- try SumOfAreas with 2 versions
+            ///class shape and its child
+            ////abstract class
+            ////abstract method
+            #endregion
