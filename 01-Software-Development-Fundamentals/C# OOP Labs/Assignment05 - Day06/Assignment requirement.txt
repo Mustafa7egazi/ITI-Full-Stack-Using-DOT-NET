@@ -1,0 +1,7 @@
+	    #region Lab Assignmets
+            
+            //1- Composition vs. Association 
+            //on class Point, line, rectangle, circle ,triangle            
+            //2- inheritance, protected, overriding
+            //on shape, rectangle ,square, circle, triangle
+            #endregion

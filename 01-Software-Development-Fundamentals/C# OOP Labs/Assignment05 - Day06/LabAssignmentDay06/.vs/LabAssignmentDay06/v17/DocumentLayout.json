@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|e:\\iti - intensive code camp\\c#\\2 - labs\\assignment05 - day06\\labassignmentday06\\inheritance models\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|solutionrelative:inheritance models\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|e:\\iti - intensive code camp\\c#\\2 - labs\\assignment05 - day06\\labassignmentday06\\inheritance models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|solutionrelative:inheritance models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|e:\\iti - intensive code camp\\c#\\2 - labs\\assignment05 - day06\\labassignmentday06\\inheritance models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|solutionrelative:inheritance models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|e:\\iti - intensive code camp\\c#\\2 - labs\\assignment05 - day06\\labassignmentday06\\inheritance models\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|solutionrelative:inheritance models\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|e:\\iti - intensive code camp\\c#\\2 - labs\\assignment05 - day06\\labassignmentday06\\inheritance models\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|solutionrelative:inheritance models\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|e:\\iti - intensive code camp\\c#\\2 - labs\\assignment05 - day06\\labassignmentday06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE2A67F-64C7-4434-B1C6-900716E8EFEA}|LabAssignmentDay06.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Triangle.cs",
+              "RelativeDocumentMoniker": "Inheritance Models\\Triangle.cs",
+              "ToolTip": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Triangle.cs",
+              "RelativeToolTip": "Inheritance Models\\Triangle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:12:31.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Circle.cs",
+              "RelativeDocumentMoniker": "Inheritance Models\\Circle.cs",
+              "ToolTip": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Circle.cs",
+              "RelativeToolTip": "Inheritance Models\\Circle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:12:23.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Square.cs",
+              "DocumentMoniker": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Square.cs",
+              "RelativeDocumentMoniker": "Inheritance Models\\Square.cs",
+              "ToolTip": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Square.cs",
+              "RelativeToolTip": "Inheritance Models\\Square.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:11:20.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Rectangle.cs",
+              "RelativeDocumentMoniker": "Inheritance Models\\Rectangle.cs",
+              "ToolTip": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Rectangle.cs",
+              "RelativeToolTip": "Inheritance Models\\Rectangle.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:11:05.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Shape.cs",
+              "RelativeDocumentMoniker": "Inheritance Models\\Shape.cs",
+              "ToolTip": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Inheritance Models\\Shape.cs",
+              "RelativeToolTip": "Inheritance Models\\Shape.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:10:42.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ITI - Intensive Code Camp\\C#\\2 - Labs\\Assignment05 - Day06\\LabAssignmentDay06\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:57:28.874Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
