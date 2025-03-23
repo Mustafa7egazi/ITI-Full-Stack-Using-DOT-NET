@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 02</title>
+</head>
+<body>
+    <center>
+        <table border="1">
+            <thead>
+                <th colspan="2">Registeration Form</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="fname">First name</label></td>
+                    <td><input type="text" name="fname" id="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last name</label></td>
+                    <td><input type="text" name="lname" id="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="uname">User name</label></td>
+                    <td><input type="text" name="uname" id="uname"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Pass</label></td>
+                    <td><input type="text" name="pass" id="pass"></td>
+                </tr>
+                <tr>
+                    <td><label for="track">Track</label></td>
+                    <td>
+                        <select name="track" id="track">
+                            <option value=".net">.NET</option>
+                            <option value="bi">BI</option>
+                            <option value="mern">MERN</option>
+                            <option value="python">Python</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3" >Gender</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="gender" value="Male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="gender" value="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Favorites</td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" name="football" value="football">Football</input></td>
+                                <td><input type="checkbox" name="basketball" value="basketball">Basketball</input></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="games" value="games">Games</input></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="reading" value="reading">Reading</input></td>
+                                <td><input type="checkbox" name="swimming" value="swimming">swimming</input></td>
+                            </tr>
+                            <tr><td><input type="checkbox" name="trave" value="trave">Trave</input></td></tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Description</td>
+                </tr>
+                <tr>
+                   <td> <textarea name="desc" id="desc" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </tbody>
+                <footer>
+                    <tr>
+                        <td colspan="2"><input type="file" name="choosefile" id="choosefile"/></td>
+                    </tr>
+                </footer>
+           
+        </table>
+    </center>
+</body>
+</html>

@@ -1,0 +1,322 @@
+@font-face {
+    font-family: myMidFont;
+    src: url(../font/poppins/Poppins-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: myLargFont;
+    src: url(../font/poppins/Poppins-ExtraBold.ttf);
+  }
+body
+{
+    margin: 0;
+    font-family: 'myMidFont';
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#container
+{
+    width: 100%;
+    /* background-color: aqua; */
+}
+#menu-holder
+{
+    width: 80%;
+    margin: 0px auto;
+    padding-top:20px;
+}
+.menu ul li
+{
+    display: inline-block;
+    /* width: 80px; */
+    margin: 0px 10px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid white;
+}
+.menu
+{
+    float: right;
+}
+.logo
+{
+    float: left;
+    padding-top: 15px;
+}
+.clear-float
+{
+    clear: both;
+}
+.menu ul li:hover{
+    color: orangered;
+    /* text-decoration: underline; */
+    border-bottom: 3px solid orangered;
+}
+
+.poster-div{
+    background-image: linear-gradient(0deg, rgba(8, 8, 8, 0.607), rgba(12, 12, 12, 0.453)),url(../images/hero.jpg);
+    background-size: cover;
+    text-align: start;
+    color: white;
+    height: 600px;
+}
+
+#donateBtn,#readMoreBtn{
+    padding: 15px 40px;
+    margin-top: 50px;
+    border: 4px solid orangered;
+    border-radius: 40px;
+    font-size: medium;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+}
+#donateBtn{
+    background-color: orangered;
+    
+}
+#readMoreBtn:hover{
+    background-color: orangered;
+}
+.left-text-poster{
+    width: 80%;
+    margin: 0px auto;
+    padding-top:20px;
+}
+
+.heading{
+    font-family: 'myLargFont';
+    font-size: 6vh;
+}
+.services-section{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.image-container {
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+/* Default images */
+.hands-img { background-image: url('../images/hands-white.png'); }
+.don-img { background-image: url('../images/donation-gray.png'); }
+.chart-img { background-image: url('../images/charity-gray.png'); }
+
+.firt-service,.second-service,.third-service{
+    margin: 10px;
+    padding: 10px;
+    max-width: 25%;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 40px;
+    font-size: larger;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    min-height: auto;
+}
+.firt-service>img, .second-service>img{
+   display: block;
+}
+
+.second-service,.third-service{
+    background-color: rgb(234, 233, 233);
+    border: 2px solid rgb(234, 233, 233);
+    color: gray;
+    padding-top: 30px;
+}
+
+.second-service:hover
+ ,.third-service:hover{
+    background-color: orangered;
+    border: 2px solid orangered; 
+}
+
+
+/* Hover effects */
+.firt-service:hover .hands-img { background-image: url('../images/hands-white.png'); }
+.second-service:hover .don-img { background-image: url('../images/donation-white.png'); }
+.third-service:hover .chart-img { background-image: url('../images/charity-white.png'); }
+
+.service-header{
+    color: black;
+}
+.firt-service:hover p,
+.second-service:hover p,
+.third-service:hover p {
+    color: white;
+}
+.sub-desc{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome-to-charity-container{
+   text-align: start;
+    height: 600px;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-size: cover;
+    background-position: center;
+  
+    background-image: linear-gradient(0deg, rgba(8, 8, 8, 0.836), rgba(12, 12, 12, 0.655)), url(../images/welcome-bg.jpg);
+}
+
+.welcome-left-side,.welcome-right-side{
+    width: 40%;
+    margin: 0px auto;
+    padding-top:20px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.welcome-left-side{
+    margin-left: 10%;
+}
+.wel-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.welcome-left-side p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+.wel-heading::after {
+    content: "";
+    width: 50px; /* Adjust width of underline */
+    height: 3px; /* Thickness of underline */
+    background-color: orange; /* Color of underline */
+    position: absolute;
+    bottom: -10px; /* Adjust space between text and line */
+    left: 0;
+}
+
+#readMoreBtn2{
+    padding: 15px 40px;
+    border: 4px solid orangered;
+    border-radius: 40px;
+    font-size: medium;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+   background-color: orangered;
+}
+
+.welcome-right-side img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.events-section{
+    position: relative;
+    text-align: start;
+    width: 80%;
+    height: 800px;
+    margin: 0px auto;
+    padding-top:20px;
+}
+
+.up-events-heading , .cause-heading{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.up-events-heading::after , .cause-heading::after{
+    content: "";
+    width: 50px; /* Adjust width of underline */
+    height: 3px; /* Thickness of underline */
+    background-color: orange; /* Color of underline */
+    position: absolute;
+    bottom: -10px; /* Adjust space between text and line */
+    left: 0;
+}
+
+.events-left-side {
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+}
+
+/* Right side adjustment */
+
+.events-left-side p:hover , .events-left-side h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.event-left-first,.event-left-second,.event-left-third{
+    height: 30%;
+}
+.firstPicLeftEvent, .secondPicLeftEvent, .thirdPicLeftEvent{
+    float: left;
+    margin: 0px auto;
+    padding-right: 20px;
+}
+.firstPicLeftEvent img,  .secondPicLeftEvent img, .thirdPicLeftEvent img{
+    height: calc(0.3*600px);
+}
+.eventReadMore{
+   color: orangered;
+   cursor: pointer;
+}
+
+.events-right-side{
+   width: 50%;
+   position: absolute;
+   left: 60%;
+   margin: 0px auto;
+   padding-right: 20px;
+}
+.firstPicRightEvent img{
+    margin: 0px auto;
+    padding-right: 20px;
+    float: left;
+}
+
+/* hover مش شغال */
+.firstPicRightEvent p:hover , .firstPicRightEvent h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.firstPicRightEvent{
+    background-color: rgb(126, 121, 115);
+}
+
+.donateNowBtn{
+
+    padding: 15px 40px;
+    margin-top: 50px;
+    border: 4px solid orangered;
+    border-radius: 40px;
+    font-size: medium;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+
+
+
+
+
+
