@@ -1,0 +1,51 @@
+.heading{
+    text-align: center;
+    margin: 20px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+body{
+    background-color: #aaaaa9;
+    font-family: Arial, sans-serif;
+}
+
+.heading:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+
+.slider{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider button{
+    height: 100%;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: 1px solid #1f1f1f;
+    padding: 10px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #fff;
+}
