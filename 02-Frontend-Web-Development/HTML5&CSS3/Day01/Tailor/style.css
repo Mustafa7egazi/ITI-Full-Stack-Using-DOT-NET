@@ -1,0 +1,535 @@
+/* =================== Global style =================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/* =================== Header style =================== */
+header .logo {
+  float: left;
+  margin: 30px 0px 0px 30px;
+}
+
+header nav {
+  float: right;
+  background-color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+ul,
+.visit-us {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0px 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+header ul a {
+  color: #101a31;
+}
+header ul a:hover {
+  color: #be9278;
+}
+
+.visit-us {
+  color: white;
+  background-color: #be9278;
+  padding: 30px 65px;
+  margin-left: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* =================== Hero section style =================== */
+
+.hero-section {
+  height: 850px;
+  background: linear-gradient(
+      to right,
+      rgba(16, 26, 48, 0.7) 0%,
+      rgba(16, 26, 48, 0.7) 12%,
+      #101a31 91%,
+      #101a31 100%
+    ),
+    url("images/h1_hero.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section .hero-content {
+  position: absolute;
+  color: #fff;
+  left: 10%;
+  top: 20%;
+  width: 40%;
+}
+
+.hero-content img {
+  margin-bottom: 30px;
+}
+.hero-content h1 {
+  font-size: 76px;
+  line-height: 83.6px;
+}
+
+.hero-content p {
+  width: 78%;
+  line-height: 30px;
+  margin: 20px 0px 30px 0px;
+}
+
+.btn {
+  background-color: #c59c84;
+  color: #fff;
+  padding: 30px 60px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-section .hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 750px;
+}
+
+.hero-img img {
+  height: 100%;
+  width: 660px;
+}
+
+/* =================== Main section style =================== */
+
+main {
+  width: 80%;
+  margin: 100px auto;
+}
+
+main .offer {
+  width: 33%;
+  display: inline-block;
+}
+
+.offer-img {
+  padding: 40px;
+}
+
+.offer img {
+  width: 100%;
+}
+
+.offer-content {
+  padding: 0px 40px;
+  position: relative;
+}
+
+.offer-content h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #101a31;
+}
+
+.offer-content span {
+  width: 35px;
+  height: 35px;
+  background-color: #c59c84;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -20px;
+}
+
+.offer-content p {
+  line-height: 30px;
+  color: #101a31;
+  width: 85%;
+}
+
+/* =================== About section style =================== */
+
+.about {
+  width: 85%;
+  margin: 100px auto;
+  height: 800px;
+  position: relative;
+}
+
+.about-img {
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+}
+
+.about-img img {
+  width: 660px;
+  height: 570px;
+}
+
+.about-content {
+  position: absolute;
+  background-color: #f2e1d9;
+  width: 70%;
+  right: 0;
+  height: 100%;
+}
+
+.about-caption {
+  position: absolute;
+  top: 15%;
+  left: 38%;
+}
+
+.about-caption h2 {
+  font-size: 56px;
+  color: #101a31;
+  font-weight: 600;
+  line-height: 67.2px;
+}
+
+.about-caption .first-p {
+  font-size: 18px;
+  color: #010a44;
+  line-height: 30px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.about-caption .second-p {
+  color: #10285d;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80%;
+  margin: 20px 0px;
+}
+
+/* =================== services section style =================== */
+.services-section {
+  width: 75%;
+  margin: 0px auto;
+  padding: 30px 0px;
+  height: 600px;
+}
+
+.services-section h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 53px;
+  font-weight: 600;
+  line-height: 74.2px;
+}
+
+.services-section p {
+  width: 80%;
+}
+
+.services-section > p {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.service-box {
+  display: inline-block;
+  width: 24%;
+  color: #101a31;
+  margin-left: 5px;
+}
+
+.service-box h5 {
+  font-size: 17px;
+  line-height: 20.4px;
+}
+
+.service-box img {
+  display: inline-block;
+  margin: 40px 0px;
+}
+.service-box p {
+  font-size: 14px;
+  line-height: 26.6px;
+  margin: 15px 0px;
+}
+
+/* =================== video section style =================== */
+.video-section {
+  width: 100%;
+  height: 600px;
+  background-image: url("images/video-bg.png.webp");
+  background-size: cover;
+  position: relative;
+}
+
+.video-icon {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.video-icon img {
+  display: block;
+  border-radius: 50%;
+}
+
+.video-offset {
+  width: 200px;
+  height: 200px;
+  background-color: #be927834;
+  background-size: contain;
+  border-radius: 50%;
+  position: absolute;
+  top: 42.4%;
+  left: 46.8%;
+}
+
+.video-offset:hover {
+  cursor: pointer;
+}
+
+/* =================== review section style =================== */
+
+.review-section {
+  width: 80%;
+  height: 400px;
+  padding: 5px;
+  margin: 0 auto;
+  background-image: url("images/quotes-sign.png");
+  background-repeat: no-repeat;
+  background-position: top 50px left 50px;
+}
+
+.review-container{
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.rev-content {
+  width: 80%;
+  position: relative;
+}
+
+.rev-content p {
+  font-size: 19px;
+  line-height: 30.4px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.rev-controls {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.rev-controls img {
+  width: 20px;
+  padding: 0px 10px;
+}
+
+.rev-owner{
+    position: relative;
+}
+
+.rev-owner>span{
+    font-size: 22px;
+    line-height: 33px;
+    color: #1D2547;
+    font-weight: 500;
+}
+
+.rev-owner>p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #1D2547;
+    font-weight: 400;
+    color: #646D77;
+}
+.rev-owner img{
+    width: 150px;
+}
+
+.rev-owner-info{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+}
+
+.review-section span {
+  padding: 20px 10px;
+}
+
+/*==================Insta section==================*/
+
+.insta-section{
+    margin: 100px 0px;
+    min-height: 300px;
+    text-align: center;
+ 
+}
+.insta-section h2{
+font-size: 53px;
+line-height: 74.2px;
+font-weight: 600;
+}
+.insta-section p{
+font-size: 18px;
+line-height: 30px;
+font-weight: 500;
+margin-bottom: 40px;
+}
+
+.fst-img, .scnd-img{
+    display: inline-block;
+    padding: 10px;
+}
+
+/*======================= footer ========================*/
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-image: url("images/footer-bg.png");  
+    position: relative;
+}
+
+footer>img{
+   position: absolute;
+   width: 60%;
+   height: 85%;
+   left: 0;
+   bottom: 0;
+}
+
+footer .tailor{
+    width: 15%;
+    position: absolute;
+    right: 22%;
+    top: 15%;
+}
+footer .tailor img{
+    width: 150px;
+}
+
+footer .tailor p{
+   font-size: 16px;
+   line-height: 28.8px;
+   font-weight: 400;
+   color: #FFFFFF;
+   margin: 30px 0px;
+}
+footer .tailor a{
+    font-family: Montserratsans-serif;
+    font-size: 20px;
+    padding: 10px 0px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #be9278;
+    text-decoration: none;
+}
+
+footer .tailor p + a {
+    display: block;
+    color: #be9278;
+    font-family: Montserratsans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 300;
+    
+}
+
+
+footer .tailor a:hover{
+    text-decoration: underline;
+}
+
+
+footer .solutions{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+
+.tailor .social img{
+    width: 24px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #2a305733;
+    margin: 20px 0px;
+}
+
+.tailor .social img:hover{
+ background-color: #be9278;
+ transform: rotateY(180deg);
+
+}
+
+footer .solutions h4{
+    color: #BE9278;
+    font-size: 32px;
+    line-height: 28.8px;
+    font-weight: 600;
+}
+
+footer .solutions ul{
+list-style-type: none;
+}
+
+footer .solutions ul li{
+    margin: 20px 0px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+footer .solutions ul li:hover{
+    cursor: pointer;
+    color: #BE9278;
+    text-decoration: underline;
+}
+
+footer > p{
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    color: #fff;
+}
