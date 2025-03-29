@@ -1,0 +1,40 @@
+.header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+img{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+img[alt="man"]{
+    padding: 20px;
+}
+
+img:hover{
+    border: 3px solid rgb(240, 142, 5);
+}
+
+label[for="age"]{
+    margin-right: 28px;
+}
+input{
+    width: 20%;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

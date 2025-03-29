@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task01 - Day06</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Task01 | Playing with Cookie</h1>
+      </div>
+      <div class="name-input">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="age-input">
+        <label for="age">Age</label>
+        <input
+          type="number"
+          id="age"
+          placeholder="Enter your age"
+          min="6"
+          max="60"
+        />
+      </div>
+      <div class="gender-input">
+        <label for="gender">Select your gender</label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <img id="man" src="imgs/1.jpg" alt="man">
+        <input  type="radio" name="gender" id="female" value="female" />
+        <img id="woman" src="imgs/2.jpg" alt="woman">
+      </div>
+      <div class="color-input">
+        <label for="color">Select you fav color</label>
+        <select name="color" id="color">
+          <option value="" ></option>
+          <option value="Red">Red</option>
+          <option value="Green">Green</option>
+          <option value="Blue">Blue</option>
+        </select>
+      </div>
+    </div>
+    <script src="cookie-lib.js"></script>
+  </body>
+</html>

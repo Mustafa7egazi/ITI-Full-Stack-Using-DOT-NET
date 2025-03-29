@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task02</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task02 | Getting users With AJAX</h1>
+        <div class="action">
+            <button id="getAllUsersBtn">Get All Users</button>
+        </div>
+        <div class="users-table">
+            <table class="auto-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="users">
+
+                </tbody>
+            </table>
+        </div>
+        <div  class="one-user-info">
+           <table class="my-table">
+            <tbody id="userDetailsBody"></tbody>
+           </table>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
