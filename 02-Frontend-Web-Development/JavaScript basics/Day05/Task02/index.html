@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Task03 | Slider</h1>
+    <div class="slider">
+        <button onclick="controlSlider('prev')" class="prev">Prev</button>
+        
+        <div class="slides">
+            <img src="imgs/1.jpg" width="800" alt="Slider Image">
+        </div>
+        
+        <button onclick="controlSlider('next')" class="next">Next</button>
+        <div class="autoplay-controls">
+            <button onclick="startAutoplay()" class="play">Play</button>
+            <button onclick="stopAutoplay()" class="stop">Stop</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

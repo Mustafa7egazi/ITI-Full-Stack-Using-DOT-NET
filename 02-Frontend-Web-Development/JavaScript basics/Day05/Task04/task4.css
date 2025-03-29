@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom:  0 auto;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 20px;
+    width:500px ;
+    padding:20px;
+  }
+
+  .header{
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .form-container{
+    max-width: fit-content;
+    margin: 10px auto;
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: orange;
+    border-radius: 20px;
+  }
+  form {
+    width: 500px;
+    margin: auto;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  span{
+    color: red;
+    display: none;
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 220px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #c33;
+    border-radius: 4px;
+  }
+
+  .radio-group,
+  .checkbox-group {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .radio-group input{
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .buttons {
+    margin-top: 15px;
+  }
+
+  .buttons input {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .buttons .submit {
+    background-color: #00aa00;
+  }
+
+  .buttons .reset {
+    background-color: #d00000;
+  }

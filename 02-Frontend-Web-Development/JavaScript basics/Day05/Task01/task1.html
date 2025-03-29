@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task01</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Task01 | Students Data</h1>
+        </div>
+        <div class="input-container">
+            <input type="text" placeholder="Enter name" id="name">
+            <span id="name-error"></span>
+            <input type="text" placeholder="Enter age" id="age">
+            <span id="age-error"></span>
+            <button onclick="insertStudentData()" id="submit-btn">Add Student</button>
+        </div>
+        <div class="output-table">
+           <table class="data-table">
+            <thead class="table-header">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Action</th> 
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+            
+           </table>
+
+        </div>
+    </div>
+    <script src="task1.js"></script>
+</body>
+</html>
