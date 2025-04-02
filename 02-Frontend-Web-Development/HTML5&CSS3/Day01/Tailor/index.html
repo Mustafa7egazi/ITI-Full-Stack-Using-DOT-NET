@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Loader -->
+    <section class="preloader">
+      <section class="preloader-circle"></section>
+      <img src="images/loder.png" alt="" class="loader-img" />
+    </section>
     <!-- Creating nav bar -->
     <header>
       <a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
@@ -51,7 +56,9 @@
     <main>
       <section class="offer">
         <section class="offer-img">
-          <img src="images/offers1.png" alt="" />
+          <section class="img-container">
+            <img src="images/offers1.png" alt="" />
+          </section>
         </section>
         <section class="offer-content">
           <span>1</span>
@@ -64,7 +71,9 @@
       </section>
       <section class="offer">
         <section class="offer-img">
-          <img src="images/offers2.png" alt="" />
+          <section class="img-container">
+            <img src="images/offers2.png" alt="" />
+          </section>
         </section>
         <section class="offer-content">
           <span>2</span>
@@ -77,7 +86,9 @@
       </section>
       <section class="offer">
         <section class="offer-img">
-          <img src="images/offers3.png" alt="" />
+          <section class="img-container">
+            <img src="images/offers3.png" alt="" />
+          </section>
         </section>
         <section class="offer-content">
           <span>3</span>
@@ -199,44 +210,84 @@
       </section>
     </section>
 
-    <!-- Creating insta section -->
-    <section class="insta-section">
-      <h2>Follow us on Instagram</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse
-        varius enim in eros.
-      </p>
-      <section class="inst-imgs">
-        <div class="fst-img"><img src="images/instra1.png" alt=""></div>
-        <div class="scnd-img"><img src="images/instra2.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></div>
-      </section>
-    </section>
+   <!-- Creating insta section -->
+<section class="insta-section">
+  <h2>Follow us on Instagram</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+    Suspendisse varius enim in eros.
+  </p>
+  <section class="inst-imgs">
+    <div class="fst-img">
+      <img src="images/instra1.png" alt="" />
+      <div class="img-overlay"></div>
+    </div>
+    <div class="scnd-img">
+      <img src="images/instra2.png" alt="" />
+      <div class="img-overlay"></div>
+    </div>
+  </section>
+</section>
 
-     <!-- Creating footer section -->
-      <footer>
-        <img src="images/map.png" alt="">
-        <section class="tailor">
-            <img src="images/logo2_footer.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-            <a href="#">(80) 783 367-3904</a>
-            <a href="#">(80) 783 367-3904</a>
-            <div class="social">
-                <a href="#"><img src="images/twitter-svgrepo-com.svg" alt=""></a>
-                <a href="#"><img src="images/facebook-boxed-svgrepo-com.svg" alt=""></a>
-                <a href="#"><img src="images/pinterest-svgrepo-com.svg" alt=""></a>
-            </div>
-        </section>
-        <section class="solutions">
-            <h4>Our Solutions</h4>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
-        </section>
-        <p>This Template made with 🤍 By 7egz</p>
-      </footer>
+    <!-- Creating footer section -->
+    <footer>
+      <img src="images/map.png" alt="" />
+      <section class="tailor">
+        <img src="images/logo2_footer.png" alt="" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+        <a href="#">(80) 783 367-3904</a>
+        <a href="#">(80) 783 367-3904</a>
+        <div class="social">
+          <a href="#"><img src="images/twitter-svgrepo-com.svg" alt="" /></a>
+          <a href="#"
+            ><img src="images/facebook-boxed-svgrepo-com.svg" alt=""
+          /></a>
+          <a href="#"><img src="images/pinterest-svgrepo-com.svg" alt="" /></a>
+        </div>
+      </section>
+      <section class="solutions">
+        <h4>Our Solutions</h4>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </section>
+      <p>This Template made with 🤍 By 7egz</p>
+    </footer>
+    <script>
+      var preloader = document.getElementsByClassName("preloader")[0];
+      window.onload = function () {
+        setTimeout(() => {
+          preloader.style.transition = "opacity 1s ease";
+          preloader.style.opacity = 0;
+          setTimeout(() => {
+            preloader.style.display = "none";
+          }, 400);
+        }, 1000);
+      };
+
+      var header = document.getElementsByTagName("header")[0];
+      var offers = document.getElementsByClassName("offer");
+      var services = document.getElementsByClassName("service-box");
+      window.onscroll = function () {
+        if (scrollY > 420) {
+          header.classList.add("fixed-header");
+          // offers abimation
+          offers[0].style.animation = "fadeInUp 1.5s forwards";
+          offers[1].style.animation = "fadeInUp 1.5s 0.4s forwards";
+          offers[2].style.animation = "fadeInUp 1.5s 0.8s forwards";
+          //services animation
+          services[0].style.animation = "fadeInUp 5s forwards";
+          services[1].style.animation = "fadeInUp 5s 0.4s forwards";
+          services[2].style.animation = "fadeInUp 5s 0.6s forwards";
+          services[3].style.animation = "fadeInUp 5s 0.8s forwards";
+        } else {
+          header.classList.remove("fixed-header");
+        }
+      };
+    </script>
   </body>
 </html>

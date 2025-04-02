@@ -16,7 +16,67 @@ a {
   clear: both;
 }
 
+:root {
+  --light-blue: #05f;
+}
+
+/*=================== Pre-Loader ========================*/
+.preloader {
+  height: 100vh;
+  width: 100%;
+  background-color: #f7f7f7;
+  position: fixed;
+  z-index: 100;
+}
+.preloader-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px rgba(35, 181, 185, 0.15);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid transparent;
+  border-top-color: #be9278;
+  animation: spin 2s infinite;
+}
+
+.loader-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
 /* =================== Header style =================== */
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  box-shadow: 0px 10px 15px rgba(25, 25, 25, 0.1);
+  animation: fadeInDown 300ms;
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 header .logo {
   float: left;
   margin: 30px 0px 0px 30px;
@@ -89,10 +149,24 @@ h6 {
   left: 10%;
   top: 20%;
   width: 40%;
+  opacity: 0;
+  animation: fadeInRight 1s ease 1.4s forwards;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .hero-content img {
   margin-bottom: 30px;
+  animation: spin 20s infinite linear;
 }
 .hero-content h1 {
   font-size: 76px;
@@ -138,6 +212,32 @@ main {
 main .offer {
   width: 33%;
   display: inline-block;
+  transform: translateY(600px);
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(600px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* Nesting */
+.offer {
+  img,
+  span,
+  h3 {
+    transition: all 0.7s;
+  }
+}
+
+.img-container {
+  overflow: hidden;
 }
 
 .offer-img {
@@ -177,6 +277,21 @@ main .offer {
   line-height: 30px;
   color: #101a31;
   width: 85%;
+}
+
+/* Nesting */
+.offer:hover {
+  img {
+    transform: scale(1.1);
+  }
+  span {
+    background: none;
+    color: #be9278;
+    border: 1px solid #c59c84;
+  }
+  h3 {
+    color: #be9278;
+  }
 }
 
 /* =================== About section style =================== */
@@ -270,6 +385,8 @@ main .offer {
   width: 24%;
   color: #101a31;
   margin-left: 5px;
+  transform: translateY(600px);
+  opacity: 0;
 }
 
 .service-box h5 {
@@ -334,10 +451,10 @@ main .offer {
   background-position: top 50px left 50px;
 }
 
-.review-container{
-    width:80%;
-    margin: 0 auto;
-    position: relative;
+.review-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .rev-content {
@@ -363,32 +480,32 @@ main .offer {
   padding: 0px 10px;
 }
 
-.rev-owner{
-    position: relative;
+.rev-owner {
+  position: relative;
 }
 
-.rev-owner>span{
-    font-size: 22px;
-    line-height: 33px;
-    color: #1D2547;
-    font-weight: 500;
+.rev-owner > span {
+  font-size: 22px;
+  line-height: 33px;
+  color: #1d2547;
+  font-weight: 500;
 }
 
-.rev-owner>p{
-    font-size: 14px;
-    line-height: 30px;
-    color: #1D2547;
-    font-weight: 400;
-    color: #646D77;
+.rev-owner > p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #1d2547;
+  font-weight: 400;
+  color: #646d77;
 }
-.rev-owner img{
-    width: 150px;
+.rev-owner img {
+  width: 150px;
 }
 
-.rev-owner-info{
-    display: inline-block;
-    position: absolute;
-    top: 30%;
+.rev-owner-info {
+  display: inline-block;
+  position: absolute;
+  top: 30%;
 }
 
 .review-section span {
@@ -397,139 +514,159 @@ main .offer {
 
 /*==================Insta section==================*/
 
-.insta-section{
-    margin: 100px 0px;
-    min-height: 300px;
-    text-align: center;
- 
+.insta-section {
+  margin: 100px 0px;
+  min-height: 300px;
+  text-align: center;
 }
-.insta-section h2{
-font-size: 53px;
-line-height: 74.2px;
-font-weight: 600;
+.insta-section h2 {
+  font-size: 53px;
+  line-height: 74.2px;
+  font-weight: 600;
 }
-.insta-section p{
-font-size: 18px;
-line-height: 30px;
-font-weight: 500;
-margin-bottom: 40px;
+.insta-section p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
-.fst-img, .scnd-img{
-    display: inline-block;
-    padding: 10px;
+.fst-img,
+.scnd-img {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
 }
+
+.fst-img img,
+.scnd-img img {
+  display: block; 
+}
+
+.img-overlay {
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  right: 10px;
+  bottom: 10px;
+  background-color: #010a4477;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fst-img:hover .img-overlay,
+.scnd-img:hover .img-overlay {
+  opacity: 1;
+}
+
+
 
 /*======================= footer ========================*/
 
-footer{
-    width: 100%;
-    height: 600px;
-    background-image: url("images/footer-bg.png");  
-    position: relative;
+footer {
+  width: 100%;
+  height: 600px;
+  background-image: url("images/footer-bg.png");
+  position: relative;
 }
 
-footer>img{
-   position: absolute;
-   width: 60%;
-   height: 85%;
-   left: 0;
-   bottom: 0;
+footer > img {
+  position: absolute;
+  width: 60%;
+  height: 85%;
+  left: 0;
+  bottom: 0;
 }
 
-footer .tailor{
-    width: 15%;
-    position: absolute;
-    right: 22%;
-    top: 15%;
+footer .tailor {
+  width: 15%;
+  position: absolute;
+  right: 22%;
+  top: 15%;
 }
-footer .tailor img{
-    width: 150px;
+footer .tailor img {
+  width: 150px;
 }
 
-footer .tailor p{
-   font-size: 16px;
-   line-height: 28.8px;
-   font-weight: 400;
-   color: #FFFFFF;
-   margin: 30px 0px;
+footer .tailor p {
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 30px 0px;
 }
-footer .tailor a{
-    font-family: Montserratsans-serif;
-    font-size: 20px;
-    padding: 10px 0px;
-    line-height: 21px;
-    font-weight: 300;
-    color: #be9278;
-    text-decoration: none;
+footer .tailor a {
+  font-family: Montserratsans-serif;
+  font-size: 20px;
+  padding: 10px 0px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #be9278;
+  text-decoration: none;
 }
 
 footer .tailor p + a {
-    display: block;
-    color: #be9278;
-    font-family: Montserratsans-serif;
-    text-decoration: none;
-    font-size: 30px;
-    line-height: 39px;
-    font-weight: 300;
-    
+  display: block;
+  color: #be9278;
+  font-family: Montserratsans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 300;
 }
 
-
-footer .tailor a:hover{
-    text-decoration: underline;
+footer .tailor a:hover {
+  text-decoration: underline;
 }
 
-
-footer .solutions{
-    width: 20%;
-    position: absolute;
-    right: 0;
-    top: 15%;
+footer .solutions {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 15%;
 }
 
-.tailor .social img{
-    width: 24px;
-    border-radius: 50%;
-    padding: 20px;
-    background-color: #2a305733;
-    margin: 20px 0px;
+.tailor .social img {
+  width: 24px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #2a305733;
+  margin: 20px 0px;
 }
 
-.tailor .social img:hover{
- background-color: #be9278;
- transform: rotateY(180deg);
-
+.tailor .social img:hover {
+  background-color: #be9278;
+  transform: rotateY(180deg);
 }
 
-footer .solutions h4{
-    color: #BE9278;
-    font-size: 32px;
-    line-height: 28.8px;
-    font-weight: 600;
+footer .solutions h4 {
+  color: #be9278;
+  font-size: 32px;
+  line-height: 28.8px;
+  font-weight: 600;
 }
 
-footer .solutions ul{
-list-style-type: none;
+footer .solutions ul {
+  list-style-type: none;
 }
 
-footer .solutions ul li{
-    margin: 20px 0px;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 300;
-    color: #fff;
+footer .solutions ul li {
+  margin: 20px 0px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #fff;
 }
-footer .solutions ul li:hover{
-    cursor: pointer;
-    color: #BE9278;
-    text-decoration: underline;
+footer .solutions ul li:hover {
+  cursor: pointer;
+  color: #be9278;
+  text-decoration: underline;
 }
 
-footer > p{
-    font-size: 20px;
-    position: absolute;
-    bottom: 20px;
-    right: 100px;
-    color: #fff;
+footer > p {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+  color: #fff;
 }
