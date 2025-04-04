@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Task</title>
+    <style>
+      @font-face {
+        font-family: aceFont;
+        src: url(font/bay-tavern-s.ttf);
+      }
+
+      body{
+        font-family: 'aceFont';
+      }
+
+      svg{
+        width: 300px;
+        height: 400px;
+        border: 2px solid rgb(218, 0, 0);
+        border-radius: 20px;
+      }
+
+      text{
+        font-size: 20px;
+        font-weight: 400;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <svg>
+        <text x="18" y="20" fill="red">A</text>
+        <text x="18" y="390" fill="red">A</text>
+        <text x="280" y="20" fill="red">A</text>
+        <text x="280" y="390" fill="red">A</text>
+        <polygon points="150,135 100,200 200,200" fill="red"/>
+        <circle cx="125" cy="205" r="30" fill="red"/>
+        <circle cx="175" cy="205" r="30" fill="red"/>
+        <polygon points="150,210 120,260 180,260" fill="red"/>
+       
+    </svg>
+  </body>
+  <script>
+    window.addEventListener("mousemove", function(e){
+        console.log(e.clientX , e.clientY);
+    });
+  </script>
+</html>
