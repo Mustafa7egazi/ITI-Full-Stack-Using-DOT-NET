@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="howMany"">
+      <span>How many books do you have?</span>
+      <input
+        type="number"
+        min="1"
+        id="bookCountInput"
+        placeholder="Enter number of books"
+      />
+      <div><button id="submitBookCount">OK</button></div>
+    </div>
+
+    <div class="form-container">
+      <form id="book-form">
+        <div class="form-group">
+          <label for="bookTitle">Book Title:</label>
+          <input type="text" id="bookTitle" placeholder="Book Title" />
+          <div class="error" id="bookTitle-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="bookPrice">Book Price:</label>
+          <input type="number" id="bookPrice" placeholder="Book Price" />
+          <div class="error" id="bookPrice-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="bookAuthor">Book Author:</label>
+          <input type="text" id="bookAuthor" placeholder="Book Author" />
+          <div class="error" id="bookAuthor-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="authorEmail">Author Email:</label>
+          <input type="email" id="authorEmail" placeholder="Author Email" />
+          <div class="error" id="authorEmail-error"></div>
+        </div>
+        <button type="submit">Save book</button>
+      </form>
+    </div>
+
+    <div class="books-table" style="display: none;">
+      <table id="books-table">
+        <thead>
+          <tr>
+            <th>Book Title</th>
+            <th>Price</th>
+            <th>Author Name</th>
+            <th>Author Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="books-tbody">
+        </tbody>
+      </table>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>

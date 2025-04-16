@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 70%;
+  margin: 20px auto;
+
+  .howMany {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    span {
+      padding: 20px;
+    }
+
+    [type="number"] {
+      width: 25%;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    div button {
+      padding: 10px 20px;
+      background-color: rgba(16, 126, 216, 0.863);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.form-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  button {
+    padding: 10px 20px;
+    background-color: rgba(16, 126, 216, 0.863);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.form-group {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"] {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#books-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#books-table th, #books-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#books-table th {
+  background-color: #f0f0f0;
+}
+
+.delete-btn {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
