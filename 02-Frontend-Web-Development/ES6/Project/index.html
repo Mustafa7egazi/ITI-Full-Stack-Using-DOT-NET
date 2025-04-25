@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7EGZ-STORE</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/auth-pages.css" />
+    <link rel="stylesheet" href="./styles/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector(".login-container h2").style.animation =
+          "fadeLeftRight 1s ease-in-out forwards";
+        document.querySelector(".login-form").style.animation =
+          "fadeLeftRight 1s ease-in-out forwards";
+      });
+    </script>
+  </head>
+  <body>
+    <div
+      class="container h-100 text-light d-flex flex-column justify-content-center align-content-center position-relative body-container"
+    >
+      <div class="login-container">
+        <h2 class="text-center mb-3 lato-black">Login</h2>
+        <form class="container login-form col-10 col-md-8 col-lg-4">
+          <p
+            class="login-message w-100 text-danger-emphasis d-none text-center lato-regular shadow"
+          >
+            Invalid email or password
+          </p>
+          <div class="mb-2">
+            <label for="emailAtLogin" class="form-label lato-regular"
+              >Email address</label
+            >
+            <div class="position-relative">
+              <i class="fa-solid fa-user small-left-pos"></i>
+              <input
+                type="email"
+                class="form-control ps-5"
+                id="emailAtLogin"
+                aria-describedby="emailHelp"
+              />
+            </div>
+          </div>
+          <div class="mb-2">
+            <label for="passwordAtLogin" class="form-label lato-regular"
+              >Password</label
+            >
+            <div class="position-relative">
+              <i class="fa-solid fa-key small-left-pos"></i>
+              <i class="fa-solid fa-eye small-right-pos"></i>
+              <input
+                type="password"
+                class="form-control ps-5"
+                id="passwordAtLogin"
+              />
+            </div>
+          </div>
+          <div class="mb-2 form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe" />
+            <label class="form-check-label lato-regular" for="rememberMe"
+              >Remember Me</label
+            >
+          </div>
+          <div
+            class="form-btn d-flex flex-column justify-content-center align-items-center w-100"
+          >
+            <button
+              type="button"
+              id="login-btn"
+              class="btn btn-secondary mb-2 col-10 col-md-8 col-lg-4 lato-bold"
+            >
+              Login
+            </button>
+            <p>
+              Do not have account?<a
+                href="./pages/register.html"
+                class="lato-regular"
+                style="color: rgb(0, 0, 94)"
+                >Register</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/auth/auth.js" type="module"></script>
+  </body>
+</html>

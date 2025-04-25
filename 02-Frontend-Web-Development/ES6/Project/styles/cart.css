@@ -1,0 +1,39 @@
+a.back-home{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.fa-minus , .fa-plus{
+    cursor: pointer;
+}
+
+.card:hover a{
+    display: block;
+    transform: none;
+  }
+  
+  .card:hover {
+    transform: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.15);
+  }
+
+  .main-content h1 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  
+  .main-content h1::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -8px; 
+    transform: translateX(-50%);
+    width: 150px; 
+    height: 3px;  
+    background: #1e2022;
+    border-radius: 2px; 
+  }

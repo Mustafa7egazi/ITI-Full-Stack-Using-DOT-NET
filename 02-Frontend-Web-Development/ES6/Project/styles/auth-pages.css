@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/e-commerce-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-container h2{
+        transform: translateX(-100%);
+        opacity: 0;
+}
+.login-form,
+.register-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin: auto;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.small-left-pos {
+  position: absolute;
+  left: 20px;
+  top: 30%;
+  color: black;
+}
+.small-right-pos {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  color: black;
+  cursor: pointer;
+}
+
+@keyframes fadeLeftRight {
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

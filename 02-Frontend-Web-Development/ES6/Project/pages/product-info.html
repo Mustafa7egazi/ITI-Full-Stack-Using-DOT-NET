@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Info</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/font.css" />
+    <link rel="stylesheet" href="../styles/modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/cart.css" />
+    <link rel="stylesheet" href="../styles/product-info.css" />
+  </head>
+  <body>
+    <lottie-player
+      src="../images/loader.json"
+      id="loader"
+      background="transparent"
+      speed="1"
+      loop
+      autoplay
+    ></lottie-player>
+
+    <div
+      class="main-content container-fluid d-flex align-items-center flex-column p-0 m-0 d-none"
+    >
+      <div class="container-fluid w-100 p-0 m-0">
+        <div class="row text-center p-0 m-0 w-100 bg-secondary-subtle">
+          <a class="navbar-brand w-100 text-center" href="home.html">
+            <span class="lato-black">7EGZ</span>
+            <img src="../images/cart-logo2.png" height="50" alt="logo" />
+            <span class="lato-black">STORE</span>
+          </a>
+        </div>
+
+        <div class="row container my-2 mx-auto px-2">
+          <a href="home.html" class="lato-bold pointer back-home">
+            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+            Back Home
+          </a>
+        </div>
+        <div class="row container mb-2 mx-auto">
+          <h1 class="lato-black w-100 text-center">Product Info</h1>
+        </div>
+
+        <div class="cart-item-container p-2 my-2 mx-auto w-100"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="../js/product/product.js" type="module"></script>
+    <script>
+      // document.getElementsByTagName("h1")[0].innerHTML = document.location.href.split("=")[1];
+    </script>
+  </body>
+</html>
