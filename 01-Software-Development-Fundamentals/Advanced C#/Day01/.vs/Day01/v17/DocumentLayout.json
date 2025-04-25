@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Day01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9C1FE9-CB21-4B61-A999-65F8ECF98638}|Day01.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\day01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9C1FE9-CB21-4B61-A999-65F8ECF98638}|Day01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9C1FE9-CB21-4B61-A999-65F8ECF98638}|Day01.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\day01\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9C1FE9-CB21-4B61-A999-65F8ECF98638}|Day01.csproj|solutionrelative:point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Point.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Day01\\Point.cs",
+              "RelativeDocumentMoniker": "Point.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Day01\\Point.cs",
+              "RelativeToolTip": "Point.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:11:20.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Day01\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Day01\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T10:56:13.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
