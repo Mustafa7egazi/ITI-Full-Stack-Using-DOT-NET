@@ -1,0 +1,15 @@
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\bin\Debug\net8.0\Day02.exe
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\bin\Debug\net8.0\Day02.deps.json
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\bin\Debug\net8.0\Day02.runtimeconfig.json
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\bin\Debug\net8.0\Day02.dll
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\bin\Debug\net8.0\Day02.pdb
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.sourcelink.json
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.dll
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\refint\Day02.dll
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.pdb
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\Day02.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Day02\obj\Debug\net8.0\ref\Day02.dll

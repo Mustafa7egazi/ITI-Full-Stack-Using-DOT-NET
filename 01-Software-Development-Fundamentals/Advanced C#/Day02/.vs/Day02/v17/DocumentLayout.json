@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94C990B6-28CA-4AA2-94CE-195D037B02A6}|Day02.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\day02\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C990B6-28CA-4AA2-94CE-195D037B02A6}|Day02.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C990B6-28CA-4AA2-94CE-195D037B02A6}|Day02.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\day02\\hiringdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C990B6-28CA-4AA2-94CE-195D037B02A6}|Day02.csproj|solutionrelative:hiringdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C990B6-28CA-4AA2-94CE-195D037B02A6}|Day02.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C990B6-28CA-4AA2-94CE-195D037B02A6}|Day02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day02\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day02\\Employee.cs",
+              "RelativeToolTip": "Employee.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:19:37.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HiringDate.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day02\\HiringDate.cs",
+              "RelativeDocumentMoniker": "HiringDate.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day02\\HiringDate.cs",
+              "RelativeToolTip": "HiringDate.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:19:21.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:47:12.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
