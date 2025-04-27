@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A17E853-5745-4863-B93A-FE757F78E4AA}|Day03.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\day03\\bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A17E853-5745-4863-B93A-FE757F78E4AA}|Day03.csproj|solutionrelative:bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A17E853-5745-4863-B93A-FE757F78E4AA}|Day03.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\day03\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A17E853-5745-4863-B93A-FE757F78E4AA}|Day03.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A17E853-5745-4863-B93A-FE757F78E4AA}|Day03.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\day03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A17E853-5745-4863-B93A-FE757F78E4AA}|Day03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookFunctions.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day03\\BookFunctions.cs",
+              "RelativeDocumentMoniker": "BookFunctions.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day03\\BookFunctions.cs",
+              "RelativeToolTip": "BookFunctions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T12:04:45.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day03\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day03\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T12:03:36.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day03\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day03\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T12:02:57.206Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
