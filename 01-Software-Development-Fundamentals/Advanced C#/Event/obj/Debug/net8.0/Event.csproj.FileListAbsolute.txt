@@ -1,0 +1,15 @@
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\bin\Debug\net8.0\Event.exe
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\bin\Debug\net8.0\Event.deps.json
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\bin\Debug\net8.0\Event.runtimeconfig.json
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\bin\Debug\net8.0\Event.dll
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\bin\Debug\net8.0\Event.pdb
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.sourcelink.json
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.dll
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\refint\Event.dll
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.pdb
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\Event.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\01-Software-Development-Fundamentals\Advanced C#\Labs\Event\obj\Debug\net8.0\ref\Event.dll
