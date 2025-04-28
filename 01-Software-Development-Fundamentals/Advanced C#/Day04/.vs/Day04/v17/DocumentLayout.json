@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Day04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E405963-BB20-4CAB-A635-D0AEC23123AA}|..\\Event\\Event.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\event\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E405963-BB20-4CAB-A635-D0AEC23123AA}|..\\Event\\Event.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\event\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E405963-BB20-4CAB-A635-D0AEC23123AA}|..\\Event\\Event.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\event\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E405963-BB20-4CAB-A635-D0AEC23123AA}|..\\Event\\Event.csproj|f:\\iti - icc master repository\\01-software-development-fundamentals\\advanced c#\\labs\\event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Event\\Program.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Program.cs",
+              "RelativeToolTip": "..\\Event\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:29:09.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Department.cs",
+              "RelativeDocumentMoniker": "..\\Event\\Department.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Department.cs",
+              "RelativeToolTip": "..\\Event\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:25:01.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\Event\\Employee.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Employee.cs",
+              "RelativeToolTip": "..\\Event\\Employee.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAIAwwD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:28:04.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Club.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Club.cs",
+              "RelativeDocumentMoniker": "..\\Event\\Club.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\01-Software-Development-Fundamentals\\Advanced C#\\Labs\\Event\\Club.cs",
+              "RelativeToolTip": "..\\Event\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:25:45.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
