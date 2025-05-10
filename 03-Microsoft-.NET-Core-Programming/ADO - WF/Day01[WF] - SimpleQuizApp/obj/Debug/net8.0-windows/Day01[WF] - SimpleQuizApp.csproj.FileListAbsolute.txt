@@ -1,0 +1,19 @@
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\bin\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.exe
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\bin\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01_WF____SimpleQuizApp.WelcomScreen.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01_WF____SimpleQuizApp.QuizForm.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01_WF____SimpleQuizApp.Properties.Resources.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.csproj.GenerateResource.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.sourcelink.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\refint\Day01[WF] - SimpleQuizApp.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\bin\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.deps.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\bin\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.runtimeconfig.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\bin\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\Day01[WF] - SimpleQuizApp.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleQuizApp\obj\Debug\net8.0-windows\ref\Day01[WF] - SimpleQuizApp.dll

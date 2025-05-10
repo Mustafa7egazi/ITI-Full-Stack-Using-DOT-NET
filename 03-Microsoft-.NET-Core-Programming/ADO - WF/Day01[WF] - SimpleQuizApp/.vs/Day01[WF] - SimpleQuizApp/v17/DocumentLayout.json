@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AD3D9B-0AEB-4449-A624-16F8EECC17DF}|Day01[WF] - SimpleQuizApp.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\wf\\day01[wf] - simplequizapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AD3D9B-0AEB-4449-A624-16F8EECC17DF}|Day01[WF] - SimpleQuizApp.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AD3D9B-0AEB-4449-A624-16F8EECC17DF}|Day01[WF] - SimpleQuizApp.csproj|F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AD3D9B-0AEB-4449-A624-16F8EECC17DF}|Day01[WF] - SimpleQuizApp.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AD3D9B-0AEB-4449-A624-16F8EECC17DF}|Day01[WF] - SimpleQuizApp.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\wf\\day01[wf] - simplequizapp\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AD3D9B-0AEB-4449-A624-16F8EECC17DF}|Day01[WF] - SimpleQuizApp.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\Form2.cs [Design]",
+              "RelativeToolTip": "Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:33:20.493Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Form2.Designer.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\Form2.Designer.cs",
+              "RelativeToolTip": "Form2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:31:09.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WF\\Day01[WF] - SimpleQuizApp\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:51:18.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\bin\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.exe
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\bin\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01_WF____SimpleNotePad.Notepad.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.csproj.GenerateResource.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.sourcelink.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\refint\Day01[WF] - SimpleNotePad.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\bin\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.deps.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\bin\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.runtimeconfig.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\bin\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\Day01[WF] - SimpleNotePad.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day01[WF] - SimpleNotePad\obj\Debug\net8.0-windows\ref\Day01[WF] - SimpleNotePad.dll
