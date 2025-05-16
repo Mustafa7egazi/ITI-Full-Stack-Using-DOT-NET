@@ -1,0 +1,134 @@
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.exe
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.deps.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.runtimeconfig.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Azure.Core.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Azure.Identity.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.ClientModel.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Memory.Data.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.csproj.AssemblyReference.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02_ADO__simpleCRUD.CourseCRUDConnected.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02_ADO__simpleCRUD.CourseCRUDDisconnected.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.csproj.GenerateResource.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.sourcelink.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[AD.C0C3398C.Up2Date
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\refint\Day02[ADO]-simpleCRUD.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\ref\Day02[ADO]-simpleCRUD.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02_ADO__simpleCRUD.NTierForm.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.exe
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.deps.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.runtimeconfig.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Azure.Core.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Azure.Identity.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.ClientModel.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Memory.Data.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.csproj.AssemblyReference.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02_ADO__simpleCRUD.CourseCRUDConnected.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02_ADO__simpleCRUD.CourseCRUDDisconnected.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02_ADO__simpleCRUD.NTierForm.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.csproj.GenerateResource.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.sourcelink.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[AD.C0C3398C.Up2Date
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\refint\Day02[ADO]-simpleCRUD.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\Day02[ADO]-simpleCRUD.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\ADO - WF\Day02[ADO]-simpleCRUD\obj\Debug\net8.0-windows\ref\Day02[ADO]-simpleCRUD.dll
