@@ -1,0 +1,15 @@
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\bin\Debug\net8.0\Day02 - LinqLab.exe
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\bin\Debug\net8.0\Day02 - LinqLab.deps.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\bin\Debug\net8.0\Day02 - LinqLab.runtimeconfig.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\bin\Debug\net8.0\Day02 - LinqLab.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\bin\Debug\net8.0\Day02 - LinqLab.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.sourcelink.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\refint\Day02 - LinqLab.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\Day02 - LinqLab.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\LINQ\Day02 - LinqLab\obj\Debug\net8.0\ref\Day02 - LinqLab.dll
