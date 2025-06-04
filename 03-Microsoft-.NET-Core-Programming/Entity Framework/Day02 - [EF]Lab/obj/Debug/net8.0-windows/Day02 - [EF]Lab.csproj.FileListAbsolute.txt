@@ -1,0 +1,145 @@
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Day02 - [EF]Lab.exe
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Day02 - [EF]Lab.deps.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Day02 - [EF]Lab.runtimeconfig.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Day02 - [EF]Lab.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Day02 - [EF]Lab.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Azure.Core.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Azure.Identity.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Castle.Core.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Humanizer.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.ClientModel.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Memory.Data.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\System.Text.Json.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.csproj.AssemblyReference.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02____EF_Lab.Form1.resources
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.csproj.GenerateResource.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.AssemblyInfoInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.AssemblyInfo.cs
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.csproj.CoreCompileInputs.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.sourcelink.json
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - .8134D16A.Up2Date
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\refint\Day02 - [EF]Lab.dll
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.pdb
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\Day02 - [EF]Lab.genruntimeconfig.cache
+F:\ITI - ICC Master Repository\03-Microsoft-.NET-Core-Programming\Entity Framework\Day02 - [EF]Lab\obj\Debug\net8.0-windows\ref\Day02 - [EF]Lab.dll

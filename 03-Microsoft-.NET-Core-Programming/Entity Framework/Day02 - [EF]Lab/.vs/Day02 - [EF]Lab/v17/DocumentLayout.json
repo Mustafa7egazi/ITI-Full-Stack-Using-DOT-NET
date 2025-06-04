@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\entity framework\\day02 - [ef]lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\entity framework\\day02 - [ef]lab\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|solutionrelative:models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\entity framework\\day02 - [ef]lab\\models\\newdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|solutionrelative:models\\newdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\entity framework\\day02 - [ef]lab\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|solutionrelative:models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\entity framework\\day02 - [ef]lab\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\entity framework\\day02 - [ef]lab\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F148A65-628C-4BBC-A520-28AA5167CA8F}|Day02 - [EF]Lab.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAgwHQBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:59:59.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCwBAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:10:20.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "News.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\News.cs",
+              "RelativeDocumentMoniker": "Models\\News.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\News.cs",
+              "RelativeToolTip": "Models\\News.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:45:08.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewDBContext.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\NewDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\NewDBContext.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\NewDBContext.cs",
+              "RelativeToolTip": "Models\\NewDBContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:02:03.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Author.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Models\\Author.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\Author.cs",
+              "RelativeToolTip": "Models\\Author.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:49:34.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:48:37.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\Entity Framework\\Day02 - [EF]Lab\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:30:41.593Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
