@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\mvc\\mvccourseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\mvc\\mvccourseproject\\models\\dbmodels\\learncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|solutionrelative:models\\dbmodels\\learncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\mvc\\mvccourseproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\mvc\\mvccourseproject\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\mvc\\mvccourseproject\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\mvc\\mvccourseproject\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|solutionrelative:repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\mvc\\mvccourseproject\\repository\\irepoository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD0B022-7485-4E96-A9FF-CFFDD23C072F}|MvcCourseProject.csproj|solutionrelative:repository\\irepoository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Controllers\\SessionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\SessionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LearnContext.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Models\\DBModels\\LearnContext.cs",
+              "RelativeDocumentMoniker": "Models\\DBModels\\LearnContext.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Models\\DBModels\\LearnContext.cs",
+              "RelativeToolTip": "Models\\DBModels\\LearnContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:48:52.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T11:48:42.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:48:29.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepoository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Repository\\IRepoository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepoository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Repository\\IRepoository.cs",
+              "RelativeToolTip": "Repository\\IRepoository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:27:42.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Repository\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICourseRepository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Repository\\ICourseRepository.cs",
+              "RelativeToolTip": "Repository\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:51:21.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Repository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CourseRepository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Repository\\CourseRepository.cs",
+              "RelativeToolTip": "Repository\\CourseRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:52:17.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:01:33.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SessionController.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "Controllers\\SessionController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:00:18.25Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

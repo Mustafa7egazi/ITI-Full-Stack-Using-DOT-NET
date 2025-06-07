@@ -1,0 +1,185 @@
+﻿@model List<Instructor>
+
+@{
+    ViewData["Title"] = "All Instructors";
+}
+
+<h1 class="text-center my-4">All Instructors</h1>
+<div class="text-center mb-4">
+    <a href="/Instructor/AddInstructorForm" class="btn btn-outline-success rounded-pill">
+        Add New Instructor
+    </a>
+</div>
+
+<div class="container">
+    <div class="container">
+        <div class="row mb-3 w-100">
+            <div class="col-md-6 w-100">
+                <input type="text" id="searchInput" class="form-control mx-auto w-50"
+                       placeholder="Search by name or ID..." />
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table id="data-table" class="table table-hover align-middle text-center shadow-sm rounded" style="overflow: hidden;">
+            <thead class="table-light">
+                <tr class="align-middle">
+                    <th>ID</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="noResults" style="display: none;">
+                <tr>
+                    <td colspan="4" class="text-center text-danger">
+                        No results found.
+                    </td>
+                </tr>
+            <tbody id="actual-data">
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td class="fw-bold">@item.Id</td>
+                        <td>
+                            <img src="/images/@item.Img" alt="@item.Name"
+                                 class="rounded-circle shadow-sm"
+                                 style="width: 60px; height: 60px; object-fit: cover;" />
+                        </td>
+                        <td>@item.Name</td>
+                        <td>
+                            <a href="/Instructor/GetInstructorById/@item.Id"
+                               class="btn btn-sm btn-primary rounded-pill">
+                                View Profile
+                            </a>
+                            <a href="/Instructor/EditInstructorInfo/@item.Id"
+                               class="btn btn-sm btn-warning rounded-pill">
+                                Edit Info
+                            </a>
+                            <a href="javascript:void(0);"
+                               class="btn btn-sm btn-danger rounded-pill delete-instructor"
+                               data-id="@item.Id"
+                               data-name="@item.Name">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteConfirmationModalLabel">Confirm Deletion</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete instructor <strong id="instructorName"></strong>?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <a href="#" id="confirmDeleteBtn" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .table tbody tr:hover {
+        background-color: #f8f9fa;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    /* Animation for the modal */
+    .modal.fade .modal-dialog {
+        transition: transform 0.3s ease-out;
+        transform: scale(0.95);
+    }
+
+    .modal.show .modal-dialog {
+        transform: scale(1);
+    }
+</style>
+
+<script>
+
+         document.addEventListener('DOMContentLoaded', function () {
+             function search() {
+                 const input = document.getElementById("searchInput");
+                 const filter = input.value.toUpperCase();
+                 const table = document.getElementById("data-table");
+                 const tr = table.getElementsByTagName("tr");
+                 let matchedResults = false;
+
+                 // Start from i=1 to skip the header row
+                 for (let i = 1; i < tr.length; i++) {
+                     const tdId = tr[i].getElementsByTagName("td")[0];
+                     const tdName = tr[i].getElementsByTagName("td")[2];
+
+                     if (tdId && tdName) {
+                         const idText = tdId.textContent || tdId.innerText;
+                         const nameText = tdName.textContent || tdName.innerText;
+                         if (idText.toUpperCase().indexOf(filter) > -1 || nameText.toUpperCase().indexOf(filter) > -1) {
+                             tr[i].style.display = "";
+                             matchedResults = true;
+                         } else {
+                             tr[i].style.display = "none";
+                         }
+                     }
+                 }
+
+                 if (!matchedResults) {
+                     document.getElementById("noResults").style.display = "table-row-group";
+                     document.getElementById("actual-data").style.display = "none";
+                 } else {
+                     document.getElementById("noResults").style.display = "none";
+                     document.getElementById("actual-data").style.display = "table-row-group";
+                 }
+             }
+             document.getElementById("searchInput").addEventListener("keyup", search);
+
+         });
+
+    // Wait for the document to be fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get all delete buttons
+        const deleteButtons = document.querySelectorAll('.delete-instructor');
+
+        // Add click event listener to each delete button
+        deleteButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const instructorId = this.getAttribute('data-id');
+                const instructorName = this.getAttribute('data-name');
+
+                // If Bootstrap modal is available
+                if (typeof bootstrap !== 'undefined') {
+                    // Set the instructor name in the modal
+                    document.getElementById('instructorName').textContent = instructorName;
+
+                    // Set the confirmation button href
+                    document.getElementById('confirmDeleteBtn').href = `/Instructor/DeleteInstructor/${instructorId}`;
+
+                    // Show the modal
+                    const modal = new bootstrap.Modal(document.getElementById('deleteConfirmationModal'));
+                    modal.show();
+                } else {
+                    // Fallback to standard confirm dialog if Bootstrap is not available
+                    if (confirm(`Are you sure you want to delete instructor ${instructorName}? This action cannot be undone.`)) {
+                        window.location.href = `/Instructor/DeleteInstructor/${instructorId}`;
+                    }
+                }
+            });
+        });
+
+    });
+
+</script>

@@ -1,0 +1,324 @@
+﻿@model List<Course>
+@{
+    ViewData["Title"] = "GetAllCourses";
+    Layout = "_CustomLayout";
+}
+
+<style>
+    .page-header {
+        text-align: center;
+        margin: 30px 0;
+        color: #333;
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+        .page-header:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
+        }
+
+    .search-container {
+        margin: 20px auto;
+        width: 80%;
+        max-width: 500px;
+        position: relative;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        border-radius: 25px;
+        font-size: 16px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 2px 10px rgba(76,175,80,0.2);
+        }
+
+    .courses-table-container {
+        width: 90%;
+        margin: 0 auto;
+        overflow-x: auto;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        border-radius: 8px;
+    }
+
+    .courses-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+    }
+
+        .courses-table th, .courses-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        .courses-table th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .courses-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .courses-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .courses-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+    .department-badge {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #e0f2f1;
+        color: #00796b;
+        border-radius: 15px;
+        font-size: 14px;
+    }
+
+    .instructors-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .instructors-list li {
+            margin-bottom: 3px;
+        }
+
+            .instructors-list li:last-child {
+                margin-bottom: 0;
+            }
+
+    .action-links {
+        display: flex;
+        gap: 8px;
+    }
+
+    .action-link {
+        padding: 5px 10px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 14px;
+        transition: all 0.2s ease;
+    }
+
+    .view-link {
+        background-color: #2196F3;
+        color: white;
+    }
+
+    .edit-link {
+        background-color: #FFC107;
+        color: #333;
+    }
+
+    .delete-link {
+        background-color: #F44336;
+        color: white;
+    }
+
+    .action-link:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+    }
+
+    .no-courses {
+        text-align: center;
+        padding: 30px;
+        color: #777;
+        font-style: italic;
+    }
+
+    .no-results {
+        text-align: center;
+        padding: 20px;
+        color: #777;
+        font-style: italic;
+        display: none;
+    }
+
+    .courses-table-container {
+        overflow-x: hidden; /* hide horizontal scroll */
+    }
+
+    /* Make table layout fixed and auto wrap */
+    #coursesTable {
+        table-layout: fixed;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+        /* Limit column widths (optional) */
+        #coursesTable th, #coursesTable td {
+            white-space: nowrap; /* keep text in one line; remove this if wrapping desired */
+            max-width: 150px; /* or adjust as needed */
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+    @@media (max-width: 768px) {
+        .courses-table th, .courses-table td {
+            padding: 8px 10px;
+            font-size: 14px;
+        }
+
+        .action-links {
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .action-link {
+            text-align: center;
+        }
+    }
+</style>
+
+<h1 class="page-header">All Courses</h1>
+
+<div class="container d-flex justify-content-center">
+    <a asp-action="AddNewCoursePage" asp-controller="Course" class="btn btn-outline-success m-5">Add New Course</a>
+</div>
+
+@* <div class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search courses by its name or department" onkeyup="searchCourses()">
+</div> *@
+
+<div class="courses-table-container">
+    <table class="table table-striped" id="coursesTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Total Degree</th>
+                <th>Min Degree</th>
+                <th>Hours</th>
+                <th>Instructors</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (Course course in Model)
+                {
+                    <tr>
+                        <td>@course.Id</td>
+                        <td>@course.Name</td>
+                        <td>
+                            <span class="department-badge">  @(course.Department?.Name ?? "No Department")</span>
+                        </td>
+                        <td>@course.Degree</td>
+                        <td>@course.MinDegree</td>
+                        <td>@course.Hours</td>
+                        <td>
+                            @if (course.Instructors != null && course.Instructors.Any())
+                            {
+                                <ul class="instructors-list">
+                                    @foreach (var instructor in course.Instructors)
+                                    {
+                                        <li>@instructor.Name</li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <span>No instructors assigned</span>
+                            }
+                        </td>
+                        <td>
+                            <div class="action-links">
+                                <a href="/Course/SpecificCourseAllStudentsResult?cid=@course.Id" class="action-link view-link">View Trainees Scores</a>
+                                @* <a href="/Course/Edit/@course.Id" class="action-link edit-link">Edit</a>
+                                <a href="/Course/Delete/@course.Id" class="action-link delete-link">Delete</a> *@
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="8" class="no-courses">No courses available.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@* <div id="noResults" class="no-results">
+    No courses found matching your search criteria.
+</div> *@
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Now jQuery should be loaded, you can use $
+        $('#coursesTable').DataTable({
+            paging: true,
+            searching: true,
+            info: true,
+            lengthChange: true,
+            pageLength: 5,
+            order: [[0, "asc"]],
+            responsive: true
+        });
+    });
+
+
+    // function searchCourses() {
+    //     var input = document.getElementById("searchInput");
+    //     var filter = input.value.toUpperCase();
+    //     var table = document.getElementById("coursesTable");
+    //     var tr = table.getElementsByTagName("tr");
+    //     var noResults = document.getElementById("noResults");
+    //     var matchFound = false;
+
+    //     // Loop through all table rows, starting from index 1 to skip the header
+    //     for (var i = 1; i < tr.length; i++) {
+    //         var nameColumn = tr[i].getElementsByTagName("td")[1]; // Name column
+    //         var deptColumn = tr[i].getElementsByTagName("td")[2]; // Department column
+
+    //         if (nameColumn && deptColumn) {
+    //             var nameText = nameColumn.textContent || nameColumn.innerText;
+    //             var deptText = deptColumn.textContent || deptColumn.innerText;
+
+    //             if (nameText.toUpperCase().indexOf(filter) > -1 || deptText.toUpperCase().indexOf(filter) > -1) {
+    //                 tr[i].style.display = "";
+    //                 matchFound = true;
+    //             } else {
+    //                 tr[i].style.display = "none";
+    //             }
+    //         }
+    //     }
+
+    //     // Show or hide the "No results" message
+    //     if (matchFound || filter === "") {
+    //         noResults.style.display = "none";
+    //     } else {
+    //         noResults.style.display = "block";
+    //     }
+    // }
+</script>

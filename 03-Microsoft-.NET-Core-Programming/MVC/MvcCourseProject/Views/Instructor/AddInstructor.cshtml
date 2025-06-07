@@ -1,0 +1,177 @@
+﻿@model InstructorWithDeptsAndCoursesViewModel
+@{
+    ViewData["Title"] = "Add Instructor";
+}
+
+<style>
+    .instructor-form-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background: linear-gradient(145deg, #f6f8fa, #ffffff);
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-title {
+        color: #2d3748;
+        margin-bottom: 30px;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        position: relative;
+    }
+
+        .form-title:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: #4a6cf7;
+            border-radius: 2px;
+        }
+
+    .form-row {
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #4a5568;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 12px 16px;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #4a6cf7;
+            box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.1);
+        }
+
+    .form-select {
+        width: 100%;
+        padding: 12px 16px;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        font-size: 16px;
+        background-color: white;
+        transition: all 0.3s ease;
+    }
+
+        .form-select:focus {
+            outline: none;
+            border-color: #4a6cf7;
+            box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.1);
+        }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .form-submit {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .btn-submit {
+        background-color: #4a6cf7;
+        color: white;
+        border: none;
+        padding: 14px 30px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .btn-submit:hover {
+            background-color: #3a5bd9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(74, 108, 247, 0.2);
+        }
+
+    .instructor-icon {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 48px;
+        color: #4a6cf7;
+    }
+</style>
+
+<div class="instructor-form-container">
+    <div class="instructor-icon">👨‍🏫</div>
+    <h1 class="form-title">Add New Instructor</h1>
+
+    <form action="/Instructor/SaveNewInstructor" method="POST" enctype="multipart/form-data">
+        <div class="form-grid">
+            <div class="form-group">
+                <label class="form-label" for="name">Full Name</label>
+                <input class="form-control" value="@Model?.Name" type="text" id="name" name="name" required placeholder="Enter instructor's full name">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="address">Address</label>
+                <input class="form-control" value="@Model?.Address" type="text" id="address" name="address" required placeholder="Enter address">
+            </div>
+        </div>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label class="form-label" for="salary">Salary</label>
+                <input class="form-control" value="@Model?.Salary" type="number" id="salary" name="salary" required placeholder="Enter salary amount">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="img">Profile Image URL</label>
+                <input class="form-control" value="@Model?.Img" type="file" id="ImgFile" name="ImgFile" required placeholder="Upload image">
+            </div>
+        </div>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label class="form-label" for="DepartmentId">Department</label>
+                <select class="form-select" id="DepartmentId" name="DepartmentId" required>
+                    <option value="">Select Department</option>
+                    @foreach (var department in Model.DepartmentsList)
+                    {
+                        <option value="@department.Id">@department.Name</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="Crs_id">Course</label>
+                <select class="form-select" id="Crs_id" name="Crs_id" required>
+                    <option value="">Select Course</option>
+                    @foreach (var course in Model.CoursesList)
+                    {
+                        <option value="@course.Id">@course.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-submit">
+            <button type="submit" class="btn-submit">Add Instructor</button>
+        </div>
+    </form>
+</div>

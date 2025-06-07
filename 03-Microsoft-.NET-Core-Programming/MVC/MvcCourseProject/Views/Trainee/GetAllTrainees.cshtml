@@ -1,0 +1,163 @@
+﻿@model List<Trainee>
+@{
+    ViewData["Title"] = "GetAllTrainees";
+}
+
+<style>
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .search-container {
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .search-input {
+        padding: 8px;
+        width: 300px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+    .trainee-table {
+        width: 90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+    }
+
+        .trainee-table th, .trainee-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .trainee-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .trainee-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .trainee-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+    .trainee-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .action-link {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+        .action-link:hover {
+            background-color: #45a049;
+        }
+
+    .no-results {
+        text-align: center;
+        margin-top: 20px;
+        font-style: italic;
+        color: #777;
+    }
+</style>
+
+<h1>All Trainees</h1>
+
+<div class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search by name, ID, or department..." onkeyup="searchTrainees()">
+</div>
+
+<table class="trainee-table" id="traineeTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trainee in Model)
+        {
+            <tr>
+                <td>@trainee.Id</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(trainee.Img))
+                    {
+                        <img src="/images/@trainee.Img" alt="@trainee.Name" class="trainee-img" />
+                    }
+                    else
+                    {
+                        <img src="/images/default-profile.jpg" alt="Default Profile" class="trainee-img" />
+                    }
+                </td>
+                <td>@trainee.Name</td>
+                <td>@trainee.Department.Name</td>
+                <td>
+                    <a href="/Trainee/SpecificTraineeAllResults?tid=@trainee.Id" class="action-link">View Results</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div id="noResults" class="no-results" style="display: none;">
+    No trainees found matching your search criteria.
+</div>
+
+<script>
+    function searchTrainees() {
+        // Get the search input value
+        var input = document.getElementById("searchInput");
+        var filter = input.value.toUpperCase();
+        var table = document.getElementById("traineeTable");
+        var tr = table.getElementsByTagName("tr");
+        var noResults = document.getElementById("noResults");
+        var matchFound = false;
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (var i = 1; i < tr.length; i++) { // Start from 1 to skip the header row
+            var tdId = tr[i].getElementsByTagName("td")[0]; // ID column
+            var tdName = tr[i].getElementsByTagName("td")[2]; // Name column
+            var tdDepartment = tr[i].getElementsByTagName("td")[3]; // Department column
+
+            if (tdId || tdName || tdDepartment) {
+                var idText = tdId.textContent || tdId.innerText;
+                var nameText = tdName.textContent || tdName.innerText;
+                var departmentText = tdDepartment.textContent || tdDepartment.innerText;
+
+                if (idText.toUpperCase().indexOf(filter) > -1 ||
+                    nameText.toUpperCase().indexOf(filter) > -1 ||
+                    departmentText.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    matchFound = true;
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        // Show or hide the "No results" message
+        if (matchFound) {
+            noResults.style.display = "none";
+        } else {
+            noResults.style.display = "block";
+        }
+    }
+</script>

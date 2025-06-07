@@ -1,0 +1,163 @@
+﻿@model List<TraineeDataViewModel>
+@{
+    ViewData["Title"] = "SpecificCourseAllStudentsResult";
+}
+
+<div class="container py-4">
+    <!-- Header Card -->
+    <div class="card shadow mb-4 border-0">
+        <div class="card-header bg-dark text-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="fs-3 mb-0">
+                        <i class="bi bi-book me-2"></i>
+                        Course: @Model.FirstOrDefault()?.CourseName Students Results
+                    </h1>
+                </div>
+                <span class="badge bg-light text-dark">
+                    @Model.Count() Students
+                </span>
+            </div>
+        </div>
+        <div class="card-header bg-light">
+            <div class="row g-2">
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white">
+                            <i class="bi bi-search"></i>
+                        </span>
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search students...">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <select id="statusFilter" class="form-select">
+                        <option value="all">All Students</option>
+                        <option value="pass">Passing Only</option>
+                        <option value="fail">Failing Only</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Table -->
+    <div class="card shadow border-0">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0" id="resultsTable">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="text-center">Image</th>
+                        <th>Trainee Name <button class="btn btn-sm text-white sort-btn" data-sort="name"><i class="bi bi-arrow-down-up"></i></button></th>
+                        <th>Course Name</th>
+                        <th>Degree <button class="btn btn-sm text-white sort-btn" data-sort="degree"><i class="bi bi-arrow-down-up"></i></button></th>
+                        <th class="text-center">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="student-row @(item.Status == "fail" ? "table-danger" : "table-success")" data-status="@item.Status" data-name="@item.TraineeName" data-degree="@item.Degree">
+                            <td class="text-center" style="width: 120px;">
+                                <div class="position-relative">
+                                    <img src="/images/@item.Image" alt="@item.TraineeName" class="rounded-circle border border-3 @(item.Status == "fail" ? "border-danger" : "border-success")" style="width:80px; height:80px; object-fit:cover;" />
+                                    @if (item.Status == "pass")
+                                    {
+                                        <span class="position-absolute bottom-0 end-0 badge rounded-pill bg-success">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                    }
+                                </div>
+                            </td>
+                            <td class="align-middle fw-bold">@item.TraineeName</td>
+                            <td class="align-middle">@item.CourseName</td>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center">
+                                    <span class="me-2 fw-bold">@item.Degree</span>
+                                    <div class="progress flex-grow-1" style="height: 10px;">
+                                        <div class="progress-bar @(item.Status == "fail" ? "bg-danger" : "bg-success")" role="progressbar" style="width: @(item.Degree)%;"
+                                             aria-valuenow="@item.Degree" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="align-middle text-center">
+                                <span class="badge rounded-pill @(item.Status == "fail" ? "bg-danger" : "bg-success") px-3 py-2 fs-6">
+                                    @item.Status.ToUpper()
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            const searchValue = this.value.toLowerCase();
+            const rows = document.querySelectorAll('.student-row');
+
+            rows.forEach(row => {
+                const name = row.getAttribute('data-name').toLowerCase();
+                if (name.includes(searchValue)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+
+        // Status filter
+        document.getElementById('statusFilter').addEventListener('change', function() {
+            const filterValue = this.value;
+            const rows = document.querySelectorAll('.student-row');
+
+            rows.forEach(row => {
+                const status = row.getAttribute('data-status');
+                if (filterValue === 'all' || status === filterValue) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+
+        // Sorting functionality
+        document.querySelectorAll('.sort-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const sortType = this.getAttribute('data-sort');
+                const rows = Array.from(document.querySelectorAll('.student-row'));
+                const tbody = document.querySelector('tbody');
+
+                // Toggle sort direction
+                const currentDirection = this.getAttribute('data-direction') || 'asc';
+                const newDirection = currentDirection === 'asc' ? 'desc' : 'asc';
+                this.setAttribute('data-direction', newDirection);
+
+                // Sort rows
+                rows.sort((a, b) => {
+                    let valueA, valueB;
+
+                    if (sortType === 'name') {
+                        valueA = a.getAttribute('data-name');
+                        valueB = b.getAttribute('data-name');
+                    } else if (sortType === 'degree') {
+                        valueA = parseInt(a.getAttribute('data-degree'));
+                        valueB = parseInt(b.getAttribute('data-degree'));
+                    }
+
+                    if (newDirection === 'asc') {
+                        return valueA > valueB ? 1 : -1;
+                    } else {
+                        return valueA < valueB ? 1 : -1;
+                    }
+                });
+
+                // Clear and re-append rows
+                rows.forEach(row => tbody.appendChild(row));
+            });
+        });
+    </script>
+}

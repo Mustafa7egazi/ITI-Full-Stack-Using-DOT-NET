@@ -1,0 +1,139 @@
+﻿@model TraineeDataViewModel
+@{
+    ViewData["Title"] = "TraineeResult";
+}
+
+<style>
+    .trainee-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 12px;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .trainee-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+    .card-img-wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-img-top {
+        transition: transform 0.5s ease;
+    }
+
+    .trainee-card:hover .card-img-top {
+        transform: scale(1.05);
+    }
+
+    .status-ribbon {
+        position: absolute;
+        top: 15px;
+        right: -35px;
+        transform: rotate(45deg);
+        width: 150px;
+        text-align: center;
+        padding: 5px 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        z-index: 2;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .card-content {
+        padding: 1.5rem;
+    }
+
+    .trainee-name {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 0.3rem;
+    }
+
+    .course-name {
+        font-size: 1rem;
+        color: #6c757d;
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+
+    .info-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-label {
+        font-weight: 600;
+        margin-right: 0.5rem;
+        min-width: 60px;
+    }
+
+    .degree-display {
+        margin-top: 1rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 0.8rem;
+        text-align: center;
+    }
+
+    .degree-value {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .pass-theme {
+        --status-color: #28a745;
+        --status-light: rgba(40, 167, 69, 0.1);
+    }
+
+    .fail-theme {
+        --status-color: #dc3545;
+        --status-light: rgba(220, 53, 69, 0.1);
+    }
+</style>
+
+<!-- FIXED: Removed nested containers and added justify-content-center to the row -->
+<div class="container my-5">
+    <h2 class="mb-4 text-center fw-bold">Trainee Result Cards</h2>
+    <!-- FIXED: Added justify-content-center to center the column -->
+    <div class="row justify-content-center g-4">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 trainee-card border-0 shadow @(Model.Status == "pass" ? "pass-theme" : "fail-theme")"
+                 style="border-top: 4px solid var(--status-color) !important;">
+
+                <div class="card-img-wrapper">
+                    <div class="status-ribbon text-white"
+                         style="background-color: var(--status-color);">
+                        @Model.Status.ToUpper()
+                    </div>
+                    <img src="/images/@Model.Image" class="card-img-top"
+                         alt="@Model.TraineeName" style="height: 200px; object-fit: cover;">
+                </div>
+
+                <div class="card-content">
+                    <h5 class="trainee-name">@Model.TraineeName</h5>
+                    <h6 class="course-name">@Model.CourseName</h6>
+
+                    <div class="info-row">
+                        <span class="info-label">Status:</span>
+                        <span class="badge"
+                              style="background-color: var(--status-color); padding: 0.5rem 0.8rem; font-size: 0.85rem;">
+                            @(Model.Status == "pass" ? "PASSED" : "FAILED")
+                        </span>
+                    </div>
+
+                    <div class="degree-display" style="background-color: var(--status-light);">
+                        <div class="small text-muted mb-1">Degree</div>
+                        <div class="degree-value" style="color: var(--status-color);">@Model.Degree</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

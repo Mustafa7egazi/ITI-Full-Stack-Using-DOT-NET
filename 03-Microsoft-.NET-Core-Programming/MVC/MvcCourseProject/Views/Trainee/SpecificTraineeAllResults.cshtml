@@ -1,0 +1,268 @@
+﻿@model List<TraineeDataViewModel>
+@{
+    ViewData["Title"] = "SpecificTraineeAllResults";
+    // Get the trainee name from the first item in the list
+    var traineeName = Model.Count > 0 ? Model[0].TraineeName : "Trainee";
+}
+
+<style>
+    .results-container {
+        background-color: #f8f9fa;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .results-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+
+    .trainee-name-heading {
+        font-size: 2.2rem;
+        font-weight: 800;
+        margin-bottom: 1.5rem;
+        color: #4a6cf7;
+        position: relative;
+        padding-bottom: 0.8rem;
+        display: inline-block;
+    }
+
+        .trainee-name-heading:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #4a6cf7, #6e8eff);
+            border-radius: 2px;
+        }
+
+    .subtitle {
+        color: #666;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .custom-table {
+        border-collapse: separate;
+        border-spacing: 0;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        background-color: white;
+    }
+
+        .custom-table thead {
+            background: linear-gradient(90deg, #3a4f7a, #4a6cf7);
+        }
+
+        .custom-table th {
+            padding: 1rem;
+            font-weight: 600;
+            color: white;
+            letter-spacing: 0.5px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            border: none;
+        }
+
+        .custom-table td {
+            padding: 1rem;
+            vertical-align: middle;
+            border-bottom: 1px solid #eee;
+            transition: all 0.2s ease;
+        }
+
+        .custom-table tbody tr {
+            transition: all 0.2s ease;
+        }
+
+            .custom-table tbody tr:hover {
+                background-color: rgba(74, 108, 247, 0.05);
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            }
+
+            .custom-table tbody tr:last-child td {
+                border-bottom: none;
+            }
+
+    .trainee-img-container {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid white;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+        transition: all 0.3s ease;
+    }
+
+        .trainee-img-container:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+    .trainee-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .course-name {
+        color: #666;
+        font-weight: 500;
+    }
+
+    .degree-badge {
+        background-color: #f0f4ff;
+        color: #4a6cf7;
+        padding: 0.5rem 0.8rem;
+        border-radius: 20px;
+        font-weight: 600;
+        display: inline-block;
+        min-width: 60px;
+        text-align: center;
+    }
+
+    .status-badge {
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-size: 0.8rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .status-pass {
+        background-color: rgba(40, 167, 69, 0.15);
+        color: #28a745;
+    }
+
+    .status-fail {
+        background-color: rgba(220, 53, 69, 0.15);
+        color: #dc3545;
+    }
+
+    .status-icon {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+    }
+
+    /* Action button styling */
+    .action-btn {
+        background-color: #4a6cf7;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 0.8rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+        .action-btn:hover {
+            background-color: #3a57d7;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+    /* Responsive adjustments */
+    @@media (max-width: 768px) {
+        .results-container {
+            padding: 1rem;
+        }
+
+        .custom-table {
+            display: block;
+            overflow-x: auto;
+        }
+
+        .trainee-img-container {
+            width: 60px;
+            height: 60px;
+        }
+
+        .trainee-name-heading {
+            font-size: 1.8rem;
+        }
+    }
+</style>
+
+<div class="results-container">
+    <div class="results-title">Course Results for</div>
+    <h1 class="trainee-name-heading">@traineeName</h1>
+    <p class="subtitle">Performance summary across all courses</p>
+
+    <table class="custom-table">
+        <thead>
+            <tr>
+                <th>Profile</th>
+                <th>Course</th>
+                <th>Degree</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <div class="trainee-img-container">
+                            <img src="/images/@item.Image" alt="@item.TraineeName" class="trainee-img" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="course-name">@item.CourseName</div>
+                    </td>
+                    <td>
+                        <div class="degree-badge">@item.Degree</div>
+                    </td>
+                    <td>
+                        @if (item.Status.ToLower() == "pass")
+                        {
+                            <div class="status-badge status-pass">
+                                <span class="status-icon" style="background-color: #28a745;"></span>
+                                PASSED
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="status-badge status-fail">
+                                <span class="status-icon" style="background-color: #dc3545;"></span>
+                                FAILED
+                            </div>
+                        }
+                    </td>
+                    <td>
+                        <a href="/Trainee/traineeResult/?cid=@item.CourseId&tid=@item.TraineeId" class="action-btn">
+                            View Card
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function visualizeCardAttachment(id) {
+        // You can implement the visualization logic here
+        // For example, open a modal or navigate to another page
+        console.log("Visualizing card attachment for ID: " + id);
+        // Example: window.location.href = "/Trainee/CardAttachment/" + id;
+    }
+</script>

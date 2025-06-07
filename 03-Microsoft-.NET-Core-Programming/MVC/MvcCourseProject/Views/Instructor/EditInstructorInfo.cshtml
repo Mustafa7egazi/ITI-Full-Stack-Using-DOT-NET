@@ -1,0 +1,270 @@
+﻿@model InstructorWithDeptsAndCoursesViewModel
+@{
+    ViewData["Title"] = "Edit Instructor";
+}
+
+<style>
+    .instructor-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(145deg, #f6f8fa, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-title {
+    color: #2d3748;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    }
+
+    .form-title:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: #4a6cf7;
+    border-radius: 2px;
+    }
+
+    .form-row {
+    margin-bottom: 20px;
+    }
+
+    .form-group {
+    margin-bottom: 25px;
+    }
+
+    .form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #4a5568;
+    }
+
+    .form-control {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    }
+
+    .form-control:focus {
+    outline: none;
+    border-color: #4a6cf7;
+    box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.1);
+    }
+
+    .form-select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    transition: all 0.3s ease;
+    }
+
+    .form-select:focus {
+    outline: none;
+    border-color: #4a6cf7;
+    box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.1);
+    }
+
+    .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    }
+
+    .form-submit {
+    text-align: center;
+    margin-top: 30px;
+    }
+
+    .btn-submit {
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+
+    .btn-submit:hover {
+    background-color: #3a5bd9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 108, 247, 0.2);
+    }
+
+    .btn-cancel {
+    background-color: #e2e8f0;
+    color: #4a5568;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    }
+
+    .btn-cancel:hover {
+    background-color: #cbd5e0;
+    transform: translateY(-2px);
+    }
+
+    .instructor-icon {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #4a6cf7;
+    }
+
+    .instructor-image-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+    border: 3px solid #4a6cf7;
+    }
+
+    .form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    }
+
+    #imagePreview {
+    transition: all 0.3s ease;
+    }
+</style>
+
+<div class="instructor-form-container">
+    @if (!string.IsNullOrEmpty(Model.Img))
+    {
+        <img src="/images/@Model.Img" alt="Instructor" class="instructor-image-preview" id="imagePreview" />
+    }
+    else
+    {
+        <div class="instructor-icon" id="iconFallback">👨‍🏫</div>
+        <img src="/placeholder.svg" alt="Instructor" class="instructor-image-preview" id="imagePreview" style="display: none;" />
+    }
+
+    <h1 class="form-title">Edit Instructor Information</h1>
+
+    <form action="/Instructor/EditInstructorInfo" method="POST" enctype="multipart/form-data">
+        <!-- Hidden field for instructor ID -->
+        <input type="hidden" name="Id" value="@Model.Id" />
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label class="form-label" for="Name">Full Name</label>
+                <input class="form-control" type="text" id="Name" name="Name" required 
+                value="@Model.Name" placeholder="Enter instructor's full name">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="Address">Address</label>
+                <input class="form-control" type="text" id="Address" name="Address" required 
+                value="@Model.Address" placeholder="Enter address">
+            </div>
+        </div>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label class="form-label" for="Salary">Salary</label>
+                <input class="form-control" type="number" id="Salary" name="Salary" required 
+                value="@Model.Salary" placeholder="Enter salary amount">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="Img">Profile Image</label>
+                <input class="form-control" type="file" id="ImgFile" name="ImgFile" required
+                       value="@Model.Img" placeholder="Select image" 
+                onchange="updateImagePreview(this.value)">
+            </div>
+        </div>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label class="form-label" for="DepartmentId">Department</label>
+                <select class="form-select" id="DepartmentId" name="DepartmentId" required>
+                    <option value="">Select Department</option>
+                    @foreach (var department in Model.DepartmentsList)
+                    {
+                        @if(department.Id == Model.DepartmentId)
+                        {
+                            <option value="@department.Id" selected>@department.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@department.Id">@department.Name</option>
+                        }
+
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="Crs_id">Course</label>
+                <select class="form-select" id="Crs_id" name="Crs_id" required>
+                    <option value="">Select Course</option>
+                    @foreach (var course in Model.CoursesList)
+                    {
+                        @if (course.Id == Model.Crs_id)
+                        {
+                            <option value="@course.Id" selected>@course.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@course.Id">@course.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <a href="/Instructor/GetAllInstructors" class="btn-cancel">Cancel</a>
+            <button type="submit" class="btn-submit" onclick="return confirm('Are you sure you want to update this instructor?')">Update Instructor</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function updateImagePreview(url) {
+        const imagePreview = document.getElementById('imagePreview');
+        const iconFallback = document.getElementById('iconFallback');
+        
+        if (url && url.trim() !== '') {
+            imagePreview.src = url;
+            imagePreview.style.display = 'block';
+            
+            if (iconFallback) {
+                iconFallback.style.display = 'none';
+            }
+        } else {
+            imagePreview.style.display = 'none';
+            
+            if (iconFallback) {
+                iconFallback.style.display = 'block';
+            }
+        }
+    }
+</script>

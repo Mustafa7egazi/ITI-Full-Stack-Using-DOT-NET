@@ -1,0 +1,313 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MvcCourseProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MvcCourseProject.vt8ylxipy1.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\images\\107674cc-38b0-496a-9530-32b6ddcd3d6d_man-glasses.jpg",
+      "PackagePath": "staticwebassets\\images\\107674cc-38b0-496a-9530-32b6ddcd3d6d_man-glasses.jpg"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\images\\3c0dec3f-28fd-47e3-ac4e-fc81718ae045_man-glasses.jpg",
+      "PackagePath": "staticwebassets\\images\\3c0dec3f-28fd-47e3-ac4e-fc81718ae045_man-glasses.jpg"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\images\\4af841b5-c1ab-401f-9057-848d5caf3693_man-red.jpg",
+      "PackagePath": "staticwebassets\\images\\4af841b5-c1ab-401f-9057-848d5caf3693_man-red.jpg"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\images\\5e3c48e1-56a8-41f9-adbb-1ffcd5971a0f_man-glasses.jpg",
+      "PackagePath": "staticwebassets\\images\\5e3c48e1-56a8-41f9-adbb-1ffcd5971a0f_man-glasses.jpg"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\MVC\\MvcCourseProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MvcCourseProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MvcCourseProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MvcCourseProject.props",
+      "PackagePath": "build\\MvcCourseProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MvcCourseProject.props",
+      "PackagePath": "buildMultiTargeting\\MvcCourseProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MvcCourseProject.props",
+      "PackagePath": "buildTransitive\\MvcCourseProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,64 @@
+﻿@model MvcCourseProject.Models.DBModels.Instructor
+
+@{
+    ViewData["Title"] = "Instructor Details";
+}
+
+<h1 class="text-center my-4">
+    <i class="bi bi-person-vcard me-2"></i>Instructor Profile
+</h1>
+
+<div class="d-flex justify-content-center">
+    <div class="card shadow-lg border-0 rounded-4" style="width: 24rem; background: linear-gradient(135deg, #ffffff, #f7f9fc);">
+        <img src="/images/@Model.Img" class="card-img-top rounded-top-4" alt="@Model.Name" style="height: 300px; object-fit: cover;">
+        <div class="card-body px-4">
+            <h4 class="card-title fw-bold text-primary mb-3">
+                <i class="bi bi-person-circle me-2 text-dark"></i>@Model.Name
+            </h4>
+
+            <p class="card-text mb-2">
+                <i class="bi bi-building me-2 text-secondary"></i>
+                <strong>Department:</strong> @Model.Department.Name
+            </p>
+
+            <p class="card-text mb-2">
+                <i class="bi bi-geo-alt me-2 text-secondary"></i>
+                <strong>Address:</strong> @Model.Address
+            </p>
+
+            <p class="card-text mb-2">
+                <i class="bi bi-cash-coin me-2 text-secondary"></i>
+                <strong>Salary:</strong> <span class="text-success">$@Model.Salary</span>
+            </p>
+
+            <p class="card-text mb-4">
+                <i class="bi bi-journal-code me-2 text-secondary"></i>
+                <strong>Teaches:</strong> @Model.Course.Name
+            </p>
+
+            <a href="/Instructor/GetAllInstructors" class="btn btn-outline-primary w-100 rounded-pill">
+                <i class="bi bi-arrow-left-circle me-1"></i> Back to All Instructors
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #333;
+    }
+
+    .bi {
+        vertical-align: middle;
+    }
+</style>
