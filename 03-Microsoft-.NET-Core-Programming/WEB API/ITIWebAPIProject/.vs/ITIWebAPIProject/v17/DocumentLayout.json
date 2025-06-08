@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\dtos\\studentdto\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:dtos\\studentdto\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\dtos\\departmentdto\\adddepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:dtos\\departmentdto\\adddepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\dtos\\departmentdto\\displaydepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:dtos\\departmentdto\\displaydepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\dtos\\studentdto\\displaystudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:dtos\\studentdto\\displaystudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\mapperconfig\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:mapperconfig\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\itiwebapiproject\\data\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6C14B-EC51-4E36-8904-A4DFB78D3CC4}|ITIWebAPIProject.csproj|solutionrelative:data\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWorks\\UnitOfWork.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWorks\\UnitOfWork.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:58:33.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Repository\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DepartmentRepository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Repository\\DepartmentRepository.cs",
+              "RelativeToolTip": "Repository\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:54:58.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Repository\\StudentRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:48:53.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\GenericRepository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Repository\\GenericRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:32:23.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddStudentDTO.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\StudentDTO\\AddStudentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDTO\\AddStudentDTO.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\StudentDTO\\AddStudentDTO.cs",
+              "RelativeToolTip": "DTOs\\StudentDTO\\AddStudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T20:49:23.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddDepartmentDTO.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\DepartmentDTO\\AddDepartmentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DepartmentDTO\\AddDepartmentDTO.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\DepartmentDTO\\AddDepartmentDTO.cs",
+              "RelativeToolTip": "DTOs\\DepartmentDTO\\AddDepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T20:15:27.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:25:40.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Department.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:25:11.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DisplayDepartmentDTO.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\DepartmentDTO\\DisplayDepartmentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DepartmentDTO\\DisplayDepartmentDTO.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\DepartmentDTO\\DisplayDepartmentDTO.cs",
+              "RelativeToolTip": "DTOs\\DepartmentDTO\\DisplayDepartmentDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:23:00.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:48:37.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DisplayStudentDTO.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\StudentDTO\\DisplayStudentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDTO\\DisplayStudentDTO.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\DTOs\\StudentDTO\\DisplayStudentDTO.cs",
+              "RelativeToolTip": "DTOs\\StudentDTO\\DisplayStudentDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:44:56.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwFMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:17:38.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MapperConfig.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\MapperConfig\\MapperConfig.cs",
+              "RelativeDocumentMoniker": "MapperConfig\\MapperConfig.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\MapperConfig\\MapperConfig.cs",
+              "RelativeToolTip": "MapperConfig\\MapperConfig.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:11:29.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:56:44.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITIContext.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Data\\ITIContext.cs",
+              "RelativeDocumentMoniker": "Data\\ITIContext.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\ITIWebAPIProject\\Data\\ITIContext.cs",
+              "RelativeToolTip": "Data\\ITIContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:56:11.31Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
