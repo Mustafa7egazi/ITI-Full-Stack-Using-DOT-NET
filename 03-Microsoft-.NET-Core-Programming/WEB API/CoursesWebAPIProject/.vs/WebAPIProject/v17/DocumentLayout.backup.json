@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\webapiproject\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\webapiproject\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\webapiproject\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\webapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\webapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\webapiproject\\models\\sddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|solutionrelative:models\\sddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|f:\\iti - icc master repository\\03-microsoft-.net-core-programming\\web api\\webapiproject\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839A7160-C0AC-4911-B361-B04310F91E3B}|WebAPIProject.csproj|solutionrelative:repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Course.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:00:54.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T12:18:31.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:17:41.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Repository\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICourseRepository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Repository\\ICourseRepository.cs",
+              "RelativeToolTip": "Repository\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:04:10.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:59:35.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Repository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CourseRepository.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Repository\\CourseRepository.cs",
+              "RelativeToolTip": "Repository\\CourseRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:44:00.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SDDBContext.cs",
+              "DocumentMoniker": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Models\\SDDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\SDDBContext.cs",
+              "ToolTip": "F:\\ITI - ICC Master Repository\\03-Microsoft-.NET-Core-Programming\\WEB API\\WebAPIProject\\Models\\SDDBContext.cs",
+              "RelativeToolTip": "Models\\SDDBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:31:07.528Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
