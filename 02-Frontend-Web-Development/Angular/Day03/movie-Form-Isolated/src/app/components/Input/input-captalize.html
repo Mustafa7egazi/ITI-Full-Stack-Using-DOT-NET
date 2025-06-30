@@ -1,0 +1,11 @@
+<div class="container-fluid d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="container w-100">
+        <h1 class="w-100 text-center mb-4">Input Capitalize</h1>
+        <div class="card-style p-4">
+            <input class="form-control border-0 shadow-none" type="text" 
+                   [(ngModel)]="inputText" 
+                   (input)="onInput($event)" 
+                   placeholder="Enter text to capitalize">
+        </div>
+    </div>
+</div>

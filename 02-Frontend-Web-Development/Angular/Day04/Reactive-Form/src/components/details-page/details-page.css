@@ -1,0 +1,89 @@
+/* Import Google Fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa; /* Light background color */
+  margin: 0;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.profile-card {
+  max-width: 600px; /* Max width for the profile card */
+  min-width: 600px;
+  background-color: #ffffff;
+  border-radius: 1rem; /* More rounded corners */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.profile-header {
+  padding-top: 1.5rem;
+}
+
+.profile-circle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000; /* Black border around the circle */
+  border-radius: 50%; /* Make it a perfect circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide overflow for the image */
+  background-color: #f0f0f0; /* Light background for the circle */
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the area without distorting aspect ratio */
+}
+
+.card-title {
+  font-weight: 700; /* Bold for the title */
+  color: #343a40; /* Dark text color */
+}
+
+.list-group-item {
+  border: none; /* Remove default list group item borders */
+  padding: 0.75rem 1rem; /* Padding for list items */
+  background-color: transparent; /* Transparent background */
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #f8f9fa; /* Slight stripe effect for readability */
+}
+
+.list-group-item span:first-child {
+  color: #495057; /* Slightly darker text for labels */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Bootstrap danger red */
+  border-color: #dc3545;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+  border-color: #bd2130;
+}
+
+.w-75 {
+  width: 75% !important; /* Override Bootstrap's default for a slightly narrower button */
+}
+
+/* Ensure responsiveness */
+@media (max-width: 576px) {
+  .profile-card {
+    margin: 1rem; /* Add some margin on very small screens */
+  }
+  .w-75 {
+    width: 90% !important; /* Make button wider on smaller screens */
+  }
+}

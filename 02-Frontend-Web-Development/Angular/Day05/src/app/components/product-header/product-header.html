@@ -1,0 +1,23 @@
+<div class="container mt-5">
+  <h1 class="text-center fw-bold display-4 text-primary mb-4 animate__animated animate__fadeInDown">Our Products</h1>
+
+  <div class="bg-white p-4 rounded-lg shadow-sm mb-5 animate__animated animate__fadeInUp animate__delay-0-5s">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <!-- Add New Product Button -->
+      <div>
+        <button class="btn btn-dark btn-lg" [routerLink]="['edit/0']">
+          <i class="bi bi-plus-circle me-2"></i> Add New Product
+        </button>
+      </div>
+
+      <!-- Search and Filter Section -->
+      <div class="d-flex flex-grow-1 justify-content-end gap-2 flex-wrap">
+        <input type="text" class="form-control flex-grow-1" placeholder="Search by name..." aria-label="Search products" />
+        <input type="text" class="form-control flex-grow-1" placeholder="Filter by price..." aria-label="Filter products" />
+        <button class="btn btn-success">
+          <i class="bi bi-funnel me-2"></i> Filter
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

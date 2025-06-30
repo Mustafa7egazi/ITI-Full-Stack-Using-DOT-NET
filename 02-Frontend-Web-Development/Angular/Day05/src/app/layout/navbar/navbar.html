@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4 text-white" href="#">Shoperior</a> 
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            class="nav-link text-white-50 px-3"
+            aria-current="page"
+            [routerLink]="['/home']"
+            [routerLinkActive]="'text-white fw-bold'" 
+            [routerLinkActiveOptions]="{exact:true}"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white-50 px-3"
+            [routerLink]="['/products']"
+            [routerLinkActive]="'text-white fw-bold'"
+            [routerLinkActiveOptions]="{exact:true}"
+            >Products</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white-50 px-3"
+            [routerLink]="['/products/edit/0']"
+            [routerLinkActive]="'text-white fw-bold'"
+            [routerLinkActiveOptions]="{exact:true}"
+            >Add Product</a
+          >
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,67 @@
+<app-shared>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100 py-5">
+    <div class="card shadow-lg p-4 bg-white rounded-lg" style="max-width: 700px; width: 100%;">
+      <div class="card-body">
+        <h1 class="card-title text-center fw-bold display-5 text-primary mb-4 animate__animated animate__fadeInDown">
+          Product Details
+        </h1>
+
+        <!-- Product Image -->
+        @if (product?.imgSrc) {
+          <div class="text-center mb-4 animate__animated animate__zoomIn animate__delay-0-5s">
+            <img 
+              [src]="product?.imgSrc" 
+              alt="{{ product?.name }}" 
+              class="img-fluid rounded shadow-sm" 
+              style="max-height: 300px; object-fit: contain; width: auto;"
+            />
+          </div>
+        } @else {
+          <div class="text-center mb-4 animate__animated animate__zoomIn animate__delay-0-5s">
+            <img 
+              src="https://placehold.co/400x300/e0e0e0/333333?text=No+Image" 
+              alt="No product image available" 
+              class="img-fluid rounded shadow-sm" 
+              style="max-height: 300px; object-fit: contain; width: auto;"
+            />
+          </div>
+        }
+
+        <!-- Product Information -->
+        <div class="product-info-grid animate__animated animate__fadeInUp animate__delay-1s">
+          <p class="lead mb-2"><strong>Product ID:</strong> {{ productId }}</p>
+          <p class="lead mb-2"><strong>Name:</strong> {{ product?.name }}</p>
+          <p class="lead mb-2"><strong>Price:</strong> ${{ product?.price | currency }}</p>
+          <p class="lead mb-4"><strong>In Stock:</strong> {{ product?.quantity }}</p>
+        </div>
+
+        <!-- Rating Section -->
+        <div class="text-center mb-5 animate__animated animate__fadeInUp animate__delay-1-5s">
+          <h4 class="text-muted mb-2">Customer Rating</h4>
+          <div class="d-inline-flex">
+            <!-- Example of dynamic stars based on a rating value (assuming product.rating exists) -->
+            @for (i of [1,2,3,4,5]; track i) {
+              <i 
+                class="bi bi-star-fill mx-1 fs-3" 
+              ></i>
+            } @empty {
+              <!-- Fallback if no rating system is in place -->
+              <i class="bi bi-star-fill mx-1 fs-3 text-secondary"></i>
+              <i class="bi bi-star-fill mx-1 fs-3 text-secondary"></i>
+              <i class="bi bi-star-fill mx-1 fs-3 text-secondary"></i>
+              <i class="bi bi-star-fill mx-1 fs-3 text-secondary"></i>
+              <i class="bi bi-star-fill mx-1 fs-3 text-secondary"></i>
+            }
+          </div>
+        </div>
+
+        <!-- Back Button -->
+        <div class="text-center animate__animated animate__zoomIn animate__delay-2s">
+          <button class="btn btn-dark btn-lg shadow-sm" [routerLink]="['/products']">
+            <i class="bi bi-arrow-left-circle me-2"></i> Back To Products
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</app-shared>

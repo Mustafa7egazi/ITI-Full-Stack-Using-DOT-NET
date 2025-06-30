@@ -1,0 +1,26 @@
+
+.categories .main-button {
+  margin-top: 30px;
+}
+
+.categories .item  {
+  background-color: #0071f8;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.categories .item .thumb {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.categories .item h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  padding: 22px;
+  margin-bottom: 0px;
+}

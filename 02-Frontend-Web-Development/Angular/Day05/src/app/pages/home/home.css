@@ -1,0 +1,29 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.btn-dark {
+  background: linear-gradient(to right, #343a40, #000000);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+  background: linear-gradient(to right, #000000, #343a40);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+.card {
+  border: none;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+.text-secondary {
+  color: #6c757d !important;
+}
+.text-muted {
+  color: #6c757d !important;
+}

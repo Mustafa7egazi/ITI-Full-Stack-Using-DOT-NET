@@ -1,0 +1,42 @@
+<div
+  class="card h-100"
+  [ngClass]="{'horror-category-card': movie.category === 'Horror'}"
+  appScale
+>
+  @if (movie.rate >= 8) {
+  <div class="top-rated-badge">
+    <span class="badge bg-warning text-dark"> TOP-RATED </span>
+  </div>
+  }
+  <img
+    [src]="movie.imageUrl"
+    class="card-img-top"
+    alt="{{ movie.name }}"
+    style="height: 250px; object-fit: cover"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ movie.name }}</h5>
+    <p class="text-muted mb-2">Directed by {{ movie.author }}</p>
+    <p class="card-text small text-muted mb-3">{{ movie.description }}</p>
+
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <span class="badge bg-secondary">{{ movie.category }}</span>
+      <div class="text-end">
+        <strong>{{ movie.rate }}/10</strong>
+        @if (movie.rate >= 5) {
+        <span class="badge bg-success ms-1">Recommended</span>
+        } @else {
+        <span class="badge bg-danger ms-1">Not Recommended</span>
+        }
+      </div>
+    </div>
+  </div>
+  <div class="card-footer bg-transparent">
+    <button
+      class="btn btn-outline-danger btn-sm w-100"
+      (click)="onRemoveMovie()"
+    >
+      Remove
+    </button>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="row g-3">
+      <div class="col-md-4">
+        <label for="categoryFilter" class="form-label"
+          >Filter by Category</label
+        >
+        <select
+          class="form-select"
+          id="categoryFilter"
+          [(ngModel)]="selectedCategory"
+          (change)="applyFiltersAndSearch()"
+        >
+          <option value="">All Categories</option>
+          @for (cat of categories; track cat) {
+          <option [value]="cat">{{ cat }}</option>
+          }
+        </select>
+      </div>
+      <div class="col-md-8">
+        <label for="searchBar" class="form-label">Search Movies</label>
+        <input
+          type="text"
+          class="form-control"
+          id="searchBar"
+          placeholder="Search by name or director..."
+          [(ngModel)]="searchQuery"
+          (input)="applyFiltersAndSearch()"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Movies ({{ filteredMovies.length }})</h3>
+</div>
+
+@if (filteredMovies.length === 0) {
+<div class="alert alert-info text-center">
+  <p class="mb-0">No movies found. Try adjusting your search or add a new movie.</p>
+</div>
+}
+
+<div class="row g-4">
+  @for (movie of filteredMovies; track movie.name) {
+  <div class="col-md-6 col-lg-4">
+    <app-movie-card
+      [movie]="movie"
+      (remove)="onRemoveMovie(movie)"
+    ></app-movie-card>
+  </div>
+  }
+</div>

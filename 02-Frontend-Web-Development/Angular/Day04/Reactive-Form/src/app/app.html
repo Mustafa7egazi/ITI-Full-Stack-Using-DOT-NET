@@ -1,0 +1,5 @@
+@if (isLogedOut) {
+    <app-form-page (onLoign)="login($event)"/>
+}@else {
+    <app-details-page (onLogout)="logout($event)" [user]="currentUser"/>
+}

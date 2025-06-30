@@ -1,0 +1,37 @@
+.nav-card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 12px 24px;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .nav-card:hover {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+  }
+  
+  .nav-link:active {
+    background-color: #007bff;
+    color: white;
+  }
+  

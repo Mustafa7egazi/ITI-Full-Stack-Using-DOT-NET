@@ -1,0 +1,12 @@
+<nav
+  class="nav-card mb-5 d-flex justify-content-center align-items-center gap-4 p-3"
+>
+  <button (click)="Home()" class="nav-link" ngClass="{'active': {{flagName}} === 'home'}  "
+    >Home</button>
+  <button (click)="Movies()"class="nav-link" ngClass="{'active': {{flagName}} === 'movies'}"
+    >Movies</button
+  >
+  <button (click)="Input()"  class="nav-link" ngClass="{'active': {{flagName}} === 'input'}"
+    >Input</button
+  >
+</nav>

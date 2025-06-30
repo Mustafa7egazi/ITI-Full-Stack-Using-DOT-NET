@@ -1,0 +1,24 @@
+<app-navigator (onChangeComponent)="navigateTo($event)" />
+@if (showMovies) {
+<div class="container py-4">
+  <div class="text-center mb-5">
+    <h1 class="h2 fw-bold text-dark mb-2">POOR IMDB</h1>
+    <p class="text-muted">Add and manage your movie collection</p>
+  </div>
+
+  <app-add-movie-form
+    [categories]="categories"
+    (movieAdded)="onMovieAdded($event)"
+  ></app-add-movie-form>
+
+  <app-movie-list
+    [movies]="movies"
+    [categories]="categories"
+    (removeMovieEvent)="onRemoveMovie($event)"
+  ></app-movie-list>
+</div>
+}@else if(ShowInput){
+<app-input-captalize />
+}@else if (showHome) {
+<app-home></app-home>
+}

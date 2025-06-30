@@ -1,0 +1,99 @@
+/* 
+---------------------------------------------
+CTA Style
+--------------------------------------------- 
+*/
+
+.cta {
+    position: relative;
+  }
+  
+  .cta::after {
+    background-image: url(../../../assets/images/cta-bg.jpg);
+    max-width: 550px;
+    max-height: 510px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    border-radius: 25px;
+    left: 50%;
+    transform: translateX(-275px);
+    top: 0;
+    z-index: -1;
+  }
+  
+  .cta .shop {
+    margin-top: 80px;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    padding: 80px;
+  }
+  
+  .cta .shop .section-heading {
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .cta .shop p {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .cta .shop .main-button {
+    margin-top: 50px;
+  }
+  
+  .cta .subscribe {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    padding: 80px 60px;
+  }
+  
+  .cta .subscribe .section-heading {
+    margin-bottom: 50px;
+  }
+  
+  .cta .subscribe form {
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .cta .subscribe form input {
+    max-width: 100%;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+  }
+  
+  .cta .subscribe form button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .3s;
+  }
+  
+  .cta .subscribe form button:hover {
+    background-color: #0071f8;
+  }
+  
+  
+
+  

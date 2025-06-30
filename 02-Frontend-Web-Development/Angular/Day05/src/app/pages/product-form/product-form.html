@@ -1,0 +1,79 @@
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="card shadow p-4" style="max-width: 500px; width: 100%;">
+    <div class="card-body">
+      <h1 class="card-title text-center text-muted mb-4">Add New Product</h1>
+      <form [formGroup]="productForm" (submit)="isAddingNewProduct? addNewProduct() : saveProduct()">
+        <div class="mb-3">
+          <label for="productName" class="form-label">Product Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="productName"
+            formControlName="name"
+            aria-describedby="nameHelp"
+            placeholder="Enter Product Name"
+          />
+          @if(getName.touched) {
+            @if(getName.hasError('required')) {
+              <div id="nameHelp" class="form-text text-danger">
+                Product Name is Required
+              </div>
+            }
+            @if(getName.hasError('minlength')) {
+              <div id="nameHelp" class="form-text text-danger">
+                Product Name length must be > 3
+              </div>
+            }
+          }
+        </div>
+        <div class="mb-3">
+          <label for="productPrice" class="form-label">Enter Product Price</label>
+          <input
+            type="text"
+            placeholder="Enter Product Price"
+            class="form-control"
+            formControlName="price"
+            id="productPrice"
+          />
+          @if(getPrice.touched) {
+            @if(getPrice.hasError('required')) {
+              <div id="priceHelp" class="form-text text-danger">
+                Product Price is Required
+              </div>
+            }
+          }
+        </div>
+        <div class="mb-3">
+          <label for="productQuantity" class="form-label">Enter Product Quantity</label>
+          <input
+            type="text"
+            placeholder="Enter Product Quantity"
+            class="form-control"
+            formControlName="quantity"
+            id="productQuantity"
+          />
+          @if(getQuantity.touched) {
+            @if(getQuantity.hasError('required')) {
+              <div id="quantityHelp" class="form-text text-danger">
+                Product Quantity is Required
+              </div>
+            }
+          }
+        </div>
+        <div class="mb-3">
+          <label for="productImgSrc" class="form-label">Product Image URL (Optional)</label>
+          <input
+            type="url"
+            class="form-control"
+            id="productImgSrc"
+            formControlName="imgSrc"
+            placeholder="Enter Image URL"
+          />
+          <!-- No validation messages here as it's optional -->
+        </div>
+        
+        <button type="submit" class="btn btn-dark w-100 mt-3">{{buttonText}}</button>
+      </form>
+    </div>
+  </div>
+</div>

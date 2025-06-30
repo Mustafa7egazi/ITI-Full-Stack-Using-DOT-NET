@@ -1,0 +1,93 @@
+<div class="card mb-4 elevated-card">
+  <div class="card-header bg-light">
+    <h5 class="mb-0">Add New Movie</h5>
+  </div>
+  <div class="card-body">
+    <form #movieForm="ngForm" (ngSubmit)="onSubmit(movieForm)">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="movieName" class="form-label">Movie Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="movieName"
+            name="newMovieName"
+            [(ngModel)]="newMovieName"
+            required
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="movieAuthor" class="form-label">Director</label>
+          <input
+            type="text"
+            class="form-control"
+            id="movieAuthor"
+            name="newMovieAuthor"
+            [(ngModel)]="newMovieAuthor"
+            required
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="movieDescription" class="form-label">Description</label>
+          <textarea
+            class="form-control"
+            id="movieDescription"
+            name="newMovieDescription"
+            rows="3"
+            [(ngModel)]="newMovieDescription"
+            required
+          ></textarea>
+        </div>
+        <div class="col-md-4">
+          <label for="movieRate" class="form-label">Rating (1-10)</label>
+          <input
+            type="number"
+            class="form-control"
+            id="movieRate"
+            name="newMovieRate"
+            [(ngModel)]="newMovieRate"
+            min="1"
+            max="10"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="movieCategory" class="form-label">Category</label>
+          <select
+            class="form-select"
+            id="movieCategory"
+            name="newMovieCategory"
+            [(ngModel)]="newMovieCategory"
+            required
+          >
+            <option value="">Select Category</option>
+            @for (cat of categories; track cat) {
+            <option [value]="cat">{{ cat }}</option>
+            }
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="movieImageUrl" class="form-label">Image URL</label>
+          <input
+            type="url"
+            class="form-control"
+            id="movieImageUrl"
+            name="newMovieImageUrl"
+            [(ngModel)]="newMovieImageUrl"
+            required
+          />
+        </div>
+      </div>
+      <div class="mt-3">
+        <button
+          type="submit"
+          class="btn btn-primary"
+          [disabled]="!movieForm.form.valid"
+        >
+          Add Movie
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

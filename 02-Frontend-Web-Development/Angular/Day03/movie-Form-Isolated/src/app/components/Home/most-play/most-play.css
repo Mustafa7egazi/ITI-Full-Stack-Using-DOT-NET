@@ -1,0 +1,74 @@
+/* 
+---------------------------------------------
+Most Played Style
+--------------------------------------------- 
+*/
+
+.most-played {
+    background-color: #f7f7f7;
+    padding: 100px 0px;
+    border-radius: 150px;
+  }
+  
+  .most-played .main-button {
+    margin-top: 32px;
+    text-align: right;
+  }
+  
+  .most-played .item  {
+    background-color: #fff;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .most-played .item .thumb {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .most-played .item .down-content {
+    padding: 20px 15px 40px 15px;
+  }
+  
+  .most-played .item .down-content span.category {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  .most-played .item .down-content h4 {
+    font-size: 17px;
+    font-weight: 600;
+    transition: all .3s;
+  }
+  
+  .most-played .item .down-content a {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    padding: 0px 15px;
+    background-color: #ee626b;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    transition: all .3s;
+  }
+  
+  .most-played .item:hover .down-content h4 {
+    color: #0071f8;
+  }
+  
+  .most-played .item:hover .down-content a {
+    background-color: #0071f8;
+  }

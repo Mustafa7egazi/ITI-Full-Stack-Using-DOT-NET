@@ -1,0 +1,15 @@
+
+  /* Custom gradient for the navbar background */
+  .bg-gradient-primary {
+    background: linear-gradient(to right, #007bff, #6610f2); /* Bootstrap primary and indigo */
+  }
+
+  /* Adjust nav-link hover effect for better contrast */
+  .navbar-nav .nav-link:hover {
+    color: #ffffff !important; /* Force white text on hover */
+  }
+
+  /* Optional: Smooth transition for active links */
+  .navbar-nav .nav-link {
+    transition: all 0.3s ease-in-out;
+  }

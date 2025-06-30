@@ -1,0 +1,138 @@
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card p-4 shadow-lg border-0 rounded-lg">
+        <h2 class="card-title text-center mb-4 font-inter">Register Form</h2>
+
+        <!-- Bind form to registerForm FormGroup and handle submission -->
+        <form [formGroup]="registerForm" (ngSubmit)="onRegisterSubmit()">
+          <!-- Name Input -->
+          <div class="mb-3">
+            <label for="name" class="form-label visually-hidden">Enter Your Name</label>
+            <input
+              type="text"
+              id="name"
+              class="form-control form-control-lg rounded-lg"
+              placeholder="Enter Your Name"
+              formControlName="name" 
+              [class.is-invalid]="getName.invalid && getName.touched" 
+            >
+            <!-- Validation messages for Name -->
+            @if(getName.touched){
+              @if(getName.hasError('required')){
+                <div class="text-danger-custom">
+                  name is required
+                </div>
+              }
+              @if(getName.hasError('minlength')){
+                <div class="text-danger-custom">
+                  Name minLength 3
+                </div>
+              }
+              @if(getName.hasError('pattern')){
+                <div class="text-danger-custom">
+                  Name must be a valid name (letters and spaces only)
+                </div>
+              }
+            }
+          </div>
+
+          <!-- Age Input -->
+          <div class="mb-3">
+            <label for="age" class="form-label visually-hidden">Enter Your Age</label>
+            <input
+              type="number"
+              id="age"
+              formControlName="age"
+              class="form-control form-control-lg rounded-lg"
+              placeholder="Enter Your Age"
+              [class.is-invalid]="getAge.invalid && getAge.touched">
+            
+            @if(getAge.touched){
+              @if(getAge.hasError('required')){
+                <div class="text-danger-custom">
+                  age is required
+                </div>
+              }
+              @if(getAge.hasError('min')){
+                <div class="text-danger-custom">
+                  minAge 18
+                </div>
+              }
+              @if(getAge.hasError('pattern')){
+                <div class="text-danger-custom">
+                  Age must be a number
+                </div>
+              }
+            }
+          </div>
+
+          <!-- Email Input -->
+          <div class="mb-3">
+            <label for="email" class="form-label visually-hidden">Enter Your Email</label>
+            <input
+              type="email" 
+              id="email"
+              class="form-control form-control-lg rounded-lg"
+              placeholder="Enter Your Email"
+              formControlName="email" 
+              [class.is-invalid]="getEmail.invalid && getEmail.touched" 
+            >
+            <!-- Validation messages for Email -->
+            @if(getEmail.touched){
+              @if(getEmail.hasError('required')){
+                <div class="text-danger-custom">
+                  Email is required
+                </div>
+              }
+              @if(getEmail.hasError('email')){
+                <div class="text-danger-custom">
+                  Enter a valid Email
+                </div>
+              }
+            }
+          </div>
+
+          <!-- Address Input -->
+          <div class="mb-4">
+            <label for="address" class="form-label visually-hidden">Enter Your Address</label>
+            <input
+              type="text"
+              id="address"
+              class="form-control form-control-lg rounded-lg"
+              placeholder="Enter Your Address"
+              formControlName="address" 
+              [class.is-invalid]="getAddress.invalid && getAddress.touched" 
+            >
+            <!-- Validation messages for Address -->
+            @if(getAddress.touched){
+              @if(getAddress.hasError('required')){
+                <div class="text-danger-custom">
+                  Address is required
+                </div>
+              }
+              @if(getAddress.hasError('minlength')){
+                <div class="text-danger-custom">
+                  Address minLength 5
+                </div>
+              }
+            }
+          </div>
+
+          <!-- Display form value for debugging (optional) -->
+          <p class="lead mt-4">{{ registerForm.value | json }}</p>
+
+          <!-- Register Button -->
+          <div class="d-grid">
+            <button
+              type="submit"
+              class="btn btn-success btn-lg rounded-lg shadow-sm"
+            >
+              Register
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

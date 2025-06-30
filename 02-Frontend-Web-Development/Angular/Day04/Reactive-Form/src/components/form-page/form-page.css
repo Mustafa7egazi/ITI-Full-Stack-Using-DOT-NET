@@ -1,0 +1,57 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* General styling for the form container */
+.card {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 1rem; /* More rounded corners for the card */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Styling for input fields */
+.form-control-lg {
+  border: 1px solid #ced4da; /* Default Bootstrap border color */
+  border-radius: 0.5rem; /* Rounded corners for inputs */
+  padding: 0.75rem 1rem; /* Larger padding for better touch targets */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-lg:focus {
+  border-color: #80bdff; /* Bootstrap primary color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow */
+}
+
+/* Styling for the Register button */
+.btn-success {
+  background-color: #28a745; /* Bootstrap success green */
+  border-color: #28a745;
+  font-weight: 600; /* Slightly bolder text */
+  padding: 0.75rem 1.5rem; /* Larger padding for the button */
+  border-radius: 0.5rem; /* Rounded corners for the button */
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+  border-color: #1e7e34;
+}
+
+.btn-success:disabled {
+  opacity: 0.65; /* Dim disabled button */
+  cursor: not-allowed;
+}
+
+/* Styling for validation messages */
+.text-danger-custom { /* Using the custom class from your original form */
+  font-size: 0.875rem; /* Smaller font size for error messages */
+  color: #dc3545; /* Bootstrap danger red */
+  margin-top: 0.25rem; /* Add some space above the message */
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+  .card {
+    margin: 1rem; /* Add margin on smaller screens */
+  }
+}

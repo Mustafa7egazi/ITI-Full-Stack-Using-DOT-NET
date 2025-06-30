@@ -1,0 +1,53 @@
+/* Styles specific to the movie card component */
+.card {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  /* Top-Rated Badge */
+  .top-rated-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+  }
+
+  .top-rated-badge .badge {
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .card-img-top {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .text-muted {
+    color: #6c757d !important;
+  }
+
+  .badge {
+    font-size: 0.75em;
+  }
+
+
+  /* movie-card-component.css */
+/* ... existing styles ... */
+
+.horror-category-card {
+  border: 2px solid red; /* A strong border */
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* A red glow */
+}
+
+/* You might want to adjust text color for readability if background changes too much */
+.horror-category-card .card-body {
+  background-color: #ffe0e0; /* A light red background */
+}
+.horror-category-card .card-title,
+.horror-category-card .text-muted,
+.horror-category-card .card-text {
+  color: #333 !important; /* Ensure text remains readable */
+}

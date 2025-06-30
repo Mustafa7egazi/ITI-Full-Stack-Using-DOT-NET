@@ -1,0 +1,36 @@
+/* You would typically link this CSS file to your 404 component's styles array
+   or include it globally if these styles are shared across multiple components. */
+
+/* Ensure Animate.css is linked in your index.html if you want animations */
+/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> */
+
+body {
+    background-color: #f8f9fa; /* Light background for the page */
+  }
+  
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Specific styles for the 404 text */
+  .display-1.text-danger {
+    font-size: 8rem; /* Make the 404 number very large */
+    line-height: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom button style from previous cool designs (ensure global availability or import) */
+  .btn-dark {
+    background: linear-gradient(to right, #343a40, #000000);
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background: linear-gradient(to right, #000000, #343a40);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
+  }
+  
