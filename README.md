@@ -22,7 +22,7 @@ This repo is not just for tracking my progress — it’s a reflection of my han
 | ✅ **Software Development Fundamentals**  | Completed      | OOP using C#                                |
 | ✅ **Frontend Web Development**          | Completed       | HTML5, CSS3, Basic JS, Bootstrap  |
 | 🟡 **Microsoft .NET Core Programming**   | Completed   | C#, LINQ, Entity Framework, SQL Server      |
-| 🔧 **MEAN Stack Development**            | Pending        | JavaScript (ES6+), TypeScript, Angular      |
+| 🔧 **MEAN Stack Development**            | Completed        | JavaScript (ES6+), TypeScript, Angular      |
 | 🛠️ **Microsoft Web Applications**        | Completed        | ASP.NET MVC Core, ASP.NET Web API           |
 
 ---
